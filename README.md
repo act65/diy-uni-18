@@ -1,3 +1,4 @@
+
 Self-taught course in data science and related topics.
 
 ## Semester 1
@@ -45,3 +46,6 @@ Self-taught course in data science and related topics.
 
 > Automated science and math.
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
+
+
+
