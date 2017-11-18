@@ -6,41 +6,40 @@ Self-taught course in data science and related topics.
 #### (Online) optimisation
 
 * Mirror descent
-* Streaming PCA
-* Memory complexity
+* Time and memory complexity
+* Case study: Streaming PCA
 
 #### Gradients
 
 * Gradient estimation through non-differentiable operations
 * Efficient automatic differentiation
-* Long term dependencies 
+* Long-term dependencies
 
 #### (Graph) signal processing
 
-* Signal processing basics and graph basics
-* Graph embeddings and transforms
-* Applied
+* Sparse representations: The fourier transformation
+* The laplacian
+* Graph embeddings for ML
 
 ## Semester 2
 
-#### Statistical learning theory
+#### (Statistical) learning theory
 
-* ?
-* Capacity
-* Generalisation
+* PAC learning complexity
+* Capacity measures
+* Bounding generalisation
 
 #### Tensor networks
 
-* 
-*
-* 
+* Contractions, GEMM and Strassen's algorithm
+* Case study: Singular value decomposition(s) - HOSVD, HSVD
+* Complex tensor networks
 
 #### Topological data analysis
 
-* Topology review
-* ?
-* Applied
-
+* Persistent homology
+* Measures of locality
+* Clustering
 
 ## Project
 
