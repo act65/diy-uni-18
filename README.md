@@ -49,7 +49,7 @@ Self-taught course in data science and related topics.
 * Algebras
 * Categories
 
-#### Dynamical systems
+#### Math 311: Dynamical systems
 
 * Uncertainty in simulations 
 * Fast solutions and approximations
