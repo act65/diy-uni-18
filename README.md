@@ -35,11 +35,25 @@ Self-taught course in data science and related topics.
 * Case study: Singular value decomposition(s) - HOSVD, HSVD
 * Complex tensor networks
 
+## Semester 3
+
 #### Data science 307: Topological data analysis
 
 * Persistent homology
 * Measures of locality
 * Clustering
+
+#### Math 301: Abstract algebra
+
+* Groups
+* Algebras
+* Categories
+
+#### Dynamical systems
+
+* Uncertainty in simulations 
+* Fast solutions and approximations
+* Stability
 
 ## Project
 
@@ -50,7 +64,6 @@ Math and science have become too big for individuals. We find it hard to keep up
 
 ## Dates
 
-* March 5th: Begin semester 1.
-* June 8th: End semester 1.
-* July 2nd: Begin semester 2.
-* October 12th: End semester 2.
+* Semester 1: March 5th - June 8th
+* Semester 2: July 2nd - October 12th
+* Semester 3: Nov 5th - Feb 22nd
