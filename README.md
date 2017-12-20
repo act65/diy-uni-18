@@ -1,5 +1,5 @@
 
-Self-taught course in data science and related topics.
+Self-taught course in data science and related math.
 
 ## Semester 1
 
@@ -9,11 +9,11 @@ Self-taught course in data science and related topics.
 * Time and memory complexity
 * Case study: Streaming PCA
 
-#### Data science 452: Advanced uses of calculus in ML
+#### Data science 452: Gradient propagation
 
-* Gradient estimation through non-differentiable operations
 * Efficient automatic differentiation
-* Long-term dependencies
+* Credit assignment and long-term dependencies
+* Gradient estimation through non-differentiable operations
 
 #### Eng 377: (Graph) signal processing
 
@@ -35,25 +35,11 @@ Self-taught course in data science and related topics.
 * Case study: Singular value decomposition(s) - HOSVD, HSVD
 * Complex tensor networks
 
-## Semester 3
+#### Data science 453: Learning discrete models
 
-#### Data science 307: Topological data analysis
-
-* Persistent homology
-* Measures of locality
-* Clustering
-
-#### Math 301: Abstract algebra
-
-* Groups
-* Algebras
-* Categories
-
-#### Math 311: Dynamical systems
-
-* Uncertainty in simulations 
-* Fast solutions and approximations
-* Stability
+* Data structures
+* Combinatorial optimisation
+* Learning discretised networks (ES, distillation, quantisation, ...?)
 
 ## Project
 
@@ -61,9 +47,7 @@ Self-taught course in data science and related topics.
 
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
 
-
 ## Dates
 
 * Semester 1: March 5th - June 8th
 * Semester 2: July 2nd - October 12th
-* Semester 3: Nov 5th - Feb 22nd
