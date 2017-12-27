@@ -15,19 +15,21 @@ Self-taught course in data science and related math.
 * Credit assignment and long-term dependencies
 * Gradient estimation through non-differentiable operations
 
+## Semester 2
+
 #### Eng 377: (Graph) signal processing
 
 * Sparse representations: The fourier transformation
 * The laplacian
 * Graph embeddings for ML
 
-## Semester 2
-
 #### Stats 323: (Statistical) learning theory
 
-* PAC learning complexity
-* Capacity measures
-* Bounding generalisation
+* Sample complexity and IID assumptions
+* PAC learning
+* Complexity measures and bounding generalisation
+
+## Semester 3
 
 #### Math 447: Tensor networks
 
@@ -51,3 +53,4 @@ Math and science have become too big for individuals. We find it hard to keep up
 
 * Semester 1: March 5th - June 8th
 * Semester 2: July 2nd - October 12th
+* Semester 3: November 5th - Fed 22nd
