@@ -25,8 +25,8 @@ Self-taught course in data science and related math.
 
 #### Stats 323: (Statistical) learning theory
 
-* Sample complexity and IID assumptions
-* PAC learning
+* Sample complexity  
+* Assumptions about the data (IID, noise, ...)
 * Complexity measures and bounding generalisation
 
 ## Semester 3
