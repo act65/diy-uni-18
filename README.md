@@ -53,4 +53,4 @@ Math and science have become too big for individuals. We find it hard to keep up
 
 * Semester 1: March 5th - June 8th
 * Semester 2: July 2nd - October 12th
-* Semester 3: November 5th - Fed 22nd
+* Semester 3: November 5th - Feburary 22nd
