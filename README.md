@@ -11,9 +11,9 @@ Self-taught course in data science and related math.
 
 #### Data science 452: Gradient propagation
 
-* Efficient automatic differentiation
+* Automatic differentiation (efficiency, on graphs, second-order)
 * Credit assignment and long-term dependencies
-* Gradient estimation through non-differentiable operations
+* Synthetic gradients
 
 ## Semester 2
 
@@ -39,8 +39,8 @@ Self-taught course in data science and related math.
 
 #### Data science 453: Learning discrete models
 
-* Data structures
 * Combinatorial optimisation
+* Gradient estimation through non-differentiable operations and various data structures
 * Learning discretised networks (ES, distillation, quantisation, ...?)
 
 ## Project
