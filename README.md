@@ -3,16 +3,43 @@ Self-taught course in data science and related math.
 
 ## Semester 1
 
-#### Math 441: (Online) optimisation
+#### Math 441: (Online and convex?) optimisation
+
+Online optimisation, aka memory limited optimisation?
+
+Would be cool to search for bounds/fastest descent possible.
+
+Readings
 
 * Mirror descent
 * Time and memory complexity
-* Case study: Streaming PCA
+* EWA
+* ?
 
-#### Data science 452: Gradient propagation
+Projects
 
-* Automatic differentiation (efficiency, on graphs, second-order)
-* Credit assignment and long-term dependencies
+* Implement streaming PCA
+* Case study on ADAM
+* Local gradient statistics
+* Higher order gradients
+
+#### Data science 452: Credit assignment
+
+* Why do we want gradients/why do we care?
+* What problem does AD solve? 
+
+Readings
+
+* Efficiency
+* Functional and categorical AD
+* [Long-term dependencies](Bengio)
+* Alternative credit assignment -- ???
+
+Projects
+
+* Implement double recursive AD
+* Implement efficient graph based reverse AD
+* Explore a pathological setting where long-term dependencies make learning 'hard'
 * Synthetic gradients
 
 ## Semester 2
