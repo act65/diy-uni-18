@@ -13,7 +13,7 @@ Readings
 
 * Mirror descent
 * Time and memory complexity
-* Case study on [ADAM]() and its decendants; NADAM and 
+* Case study on [ADAM]() and its decendants; [NADAM]() and [AMSGRAD]()
 * Kronecker-factored approximation
 
 Projects
@@ -30,10 +30,12 @@ Projects
 
 Readings
 
-* Efficiency
+* [Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation]
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
-* [Understanding Synthetic gradients]()
+* Temporal difference
+
+<!-- * [Understanding Synthetic gradients]() -->
 
 Projects
 
@@ -53,7 +55,7 @@ Projects
 
 #### Stats 323: (Statistical) learning theory
 
-* Sample complexity  
+* Sample complexity
 * Assumptions about the data (IID, noise, ...)
 * Complexity measures and bounding generalisation
 
@@ -64,18 +66,55 @@ Projects
 Readings
 
 * [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
+* Case study: Singular value decomposition(s) - HOSVD, HSVD
+
 
 Projects
 
 * Reshaping tensors, what is this really doing?
-* Case study: Singular value decomposition(s) - HOSVD, HSVD
 * Implement and explore the properties of a complex tensor network
+
 
 #### Data science 453: Learning discrete models
 
+<!-- What about learning PGMs -->
+
+Reading
+
+* Non differentiable ops: Rebar, concrete, <!-- Gradient estimation through non-differentiable operations and various data structures
+ -->
+* Alternatives and approximations to gradients
 * Combinatorial optimisation
-* Gradient estimation through non-differentiable operations and various data structures
 * Learning discretised networks (ES, distillation, quantisation, ...?)
+
+* Extract an automata from a learned network
+* Discretise ...
+* ?
+
+## Semester 4
+
+#### Alternative ...?
+
+* Hungarian Layer, OptNet, Submodular
+* 
+
+
+
+
+#### Natural language processing
+<!-- Could spend a whole year on this... Linguistics, evolution of language, programming languages, types, ... ?-->
+
+Readings
+
+* Translating without parallel data
+* Question answering
+* Summarisation
+* Entailment
+
+Projects
+
+* 
+
 
 ## Project
 
@@ -87,4 +126,5 @@ Math and science have become too big for individuals. We find it hard to keep up
 
 * Semester 1: March 5th - June 8th
 * Semester 2: July 2nd - October 12th
-* Semester 3: November 5th - Feburary 22nd
+* Semester 3: March 5th - June 8th
+* Semester 4: July 2nd - October 12th
