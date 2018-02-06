@@ -3,7 +3,7 @@ Self-taught course in data science and related math.
 
 ## Semester 1
 
-#### Math 441: (Online and convex?) optimisation
+#### Math 441: Optimisation
 
 Online optimisation, aka memory limited optimisation?
 
@@ -13,14 +13,14 @@ Readings
 
 * Mirror descent
 * Time and memory complexity
-* EWA
-* ?
+* Case study on [ADAM]() and its decendants; NADAM and 
+* Kronecker-factored approximation
 
 Projects
 
 * Implement streaming PCA
-* Case study on ADAM
-* Local gradient statistics
+* Hierarchical ??? Online frequency. Efficient memory in online setting. Hierarchical sketch.
+* Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
 * Higher order gradients
 
 #### Data science 452: Credit assignment
@@ -31,16 +31,17 @@ Projects
 Readings
 
 * Efficiency
-* Functional and categorical AD
-* [Long-term dependencies](Bengio)
-* Alternative credit assignment -- ???
+* [Backprop as Functor](https://arxiv.org/abs/1711.10455)
+* [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
+* [Understanding Synthetic gradients]()
 
 Projects
 
-* Implement double recursive AD
+* Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
 * Implement efficient graph based reverse AD
-* Explore a pathological setting where long-term dependencies make learning 'hard'
-* Synthetic gradients
+* Long-term dependencies: pathological settings and the relationship to entropy
+* Alternative credit assignment -- ???
+
 
 ## Semester 2
 
@@ -60,9 +61,15 @@ Projects
 
 #### Math 447: Tensor networks
 
-* Contractions, GEMM and Strassen's algorithm
+Readings
+
+* [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
+
+Projects
+
+* Reshaping tensors, what is this really doing?
 * Case study: Singular value decomposition(s) - HOSVD, HSVD
-* Complex tensor networks
+* Implement and explore the properties of a complex tensor network
 
 #### Data science 453: Learning discrete models
 
