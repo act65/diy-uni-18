@@ -3,34 +3,37 @@ Self-taught course in data science and related math.
 
 ## Semester 1
 
-#### Math 441: Optimisation
+#### Math 441: (Online and/or convex) Optimisation
 
 Online optimisation, aka memory limited optimisation?
-
 Would be cool to search for bounds/fastest descent possible.
+* What is up with potential functions!?
+* Regularisers as projections into the 'right' geometry.
+* What are the distinct problems that non-convex optimisation brings?
 
 Readings
 
-* Mirror descent
+* [Potential-Function Proofs for First-Order Methods](https://arxiv.org/abs/1712.04581)
 * Time and memory complexity
 * Case study on [ADAM]() and its decendants; [NADAM]() and [AMSGRAD]()
-* Kronecker-factored approximation
+* Lagrange dual
 
-Projects
+Projects (dont seem related to the topic/readings...)
 
 * Implement streaming PCA
 * Hierarchical ??? Online frequency. Efficient memory in online setting. Hierarchical sketch.
 * Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
-* Higher order gradients
+* Kronecker-factored approximation (Higher order gradients)
 
 #### Data science 452: Credit assignment
 
+* What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
-* What problem does AD solve? 
+* What problem does AD solve?
 
 Readings
 
-* [Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation]
+* [Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation]()
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
 * Temporal difference
@@ -43,7 +46,6 @@ Projects
 * Implement efficient graph based reverse AD
 * Long-term dependencies: pathological settings and the relationship to entropy
 * Alternative credit assignment -- ???
-
 
 ## Semester 2
 
@@ -95,7 +97,7 @@ Reading
 
 #### Alternative ...?
 
-* Hungarian Layer, OptNet, Submodular
+* Hungarian Layer, OptNet, [Submodular](https://papers.nips.cc/paper/6702-differentiable-learning-of-submodular-functions)
 * 
 
 
@@ -115,6 +117,23 @@ Projects
 
 * 
 
+## Semester 5
+
+#### ?
+
+
+
+#### Reinforcement learning
+
+
+## Semester 6
+
+#### Meta and recursive learning
+
+
+#### Representation/approximation theory
+
+
 
 ## Project
 
@@ -128,3 +147,5 @@ Math and science have become too big for individuals. We find it hard to keep up
 * Semester 2: July 2nd - October 12th
 * Semester 3: March 5th - June 8th
 * Semester 4: July 2nd - October 12th
+* Semester 5: March 5th - June 8th
+* Semester 6: July 2nd - October 12th
