@@ -31,6 +31,8 @@ Projects (dont seem related to the topic/readings...)
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
 
+<!-- How do ES assign credit? A counterfactual. -->
+
 Readings
 
 * [Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation]()
@@ -60,6 +62,7 @@ Projects
 * Sample complexity
 * Assumptions about the data (IID, noise, ...)
 * Complexity measures and bounding generalisation
+* Overfitting
 
 ## Semester 3
 
@@ -95,20 +98,19 @@ Reading
 
 ## Semester 4
 
-#### Alternative ...?
+#### Representation/approximation theory
 
-* Hungarian Layer, OptNet, [Submodular](https://papers.nips.cc/paper/6702-differentiable-learning-of-submodular-functions)
-* 
-
-
-
+* Curve fitting
+* Deep vs wide
+* Alternative representations?
+* Factorisation machines
+* Neural networks as a tensor decomposition?
 
 #### Natural language processing
 <!-- Could spend a whole year on this... Linguistics, evolution of language, programming languages, types, ... ?-->
 
 Readings
 
-* Translating without parallel data
 * Question answering
 * Summarisation
 * Entailment
@@ -117,21 +119,8 @@ Projects
 
 * 
 
-## Semester 5
-
-#### ?
 
 
-
-#### Reinforcement learning
-
-
-## Semester 6
-
-#### Meta and recursive learning
-
-
-#### Representation/approximation theory
 
 
 
@@ -147,5 +136,3 @@ Math and science have become too big for individuals. We find it hard to keep up
 * Semester 2: July 2nd - October 12th
 * Semester 3: March 5th - June 8th
 * Semester 4: July 2nd - October 12th
-* Semester 5: March 5th - June 8th
-* Semester 6: July 2nd - October 12th
