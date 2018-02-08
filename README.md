@@ -5,8 +5,8 @@ Self-taught course in data science and related math.
 
 #### Math 441: (Online and/or convex) Optimisation
 
-Online optimisation, aka memory limited optimisation?
-Would be cool to search for bounds/fastest descent possible.
+* Online optimisation, aka memory limited optimisation?
+* Would be cool to search for bounds/fastest descent possible.
 * What is up with potential functions!?
 * Regularisers as projections into the 'right' geometry.
 * What are the distinct problems that non-convex optimisation brings?
@@ -70,14 +70,16 @@ Projects
 
 Readings
 
-* [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
 * Case study: Singular value decomposition(s) - HOSVD, HSVD
-
+* [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
+* ?
 
 Projects
 
 * Reshaping tensors, what is this really doing?
 * Implement and explore the properties of a complex tensor network
+* Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
+* ?
 
 
 #### Data science 453: Learning discrete models
