@@ -5,23 +5,21 @@ Self-taught course in data science and related math.
 
 #### Math 441: (Online and/or convex) Optimisation
 
-* Online optimisation, aka memory limited optimisation?
-* Would be cool to search for bounds/fastest descent possible.
-* What is up with potential functions!?
-* Regularisers as projections into the 'right' geometry.
+* Is online optimisation equivalent to memory-limited optimisation?
 * What are the distinct problems that non-convex optimisation brings?
 
 Readings
 
 * [Potential-Function Proofs for First-Order Methods](https://arxiv.org/abs/1712.04581)
 * Time and memory complexity
-* Case study on [ADAM]() and its decendants; [NADAM]() and [AMSGRAD]()
-* Lagrange dual
+* Case study on [ADAM]() and its repair [AMSGRAD]()
+* Lagrangian duals
+* Regularisers as projections into the 'right' geometry.
 
-Projects (dont seem related to the topic/readings...)
+Projects
 
 * Implement streaming PCA
-* Hierarchical ??? Online frequency. Efficient memory in online setting. Hierarchical sketch.
+* Tree based frequency sketch. Efficient memory in online setting.
 * Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
 * Kronecker-factored approximation (Higher order gradients)
 
@@ -35,19 +33,19 @@ Projects (dont seem related to the topic/readings...)
 
 Readings
 
-* [Equilibrium Propagation: Bridging the Gap Between Energy-Based Models and Backpropagation]()
+* Biologically plausible credis assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
-* Temporal difference
+* Temporal differences?
 
 <!-- * [Understanding Synthetic gradients]() -->
 
 Projects
 
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
-* Implement efficient graph based reverse AD
-* Long-term dependencies: pathological settings and the relationship to entropy
-* Alternative credit assignment -- ???
+* Implement efficient graph based reverse AD (not sure about this one...)
+* Long-term dependencies: pathological settings and the relationship to entropy (?)
+* Alternative credit assignment
 
 ## Semester 2
 
