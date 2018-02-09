@@ -33,19 +33,19 @@ Projects
 
 Readings
 
-* Biologically plausible credis assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
+* Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
 * Temporal differences?
 
-<!-- * [Understanding Synthetic gradients]() -->
+<!-- Would like some more readings on AD!? -->
 
 Projects
 
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
 * Implement efficient graph based reverse AD (not sure about this one...)
 * Long-term dependencies: pathological settings and the relationship to entropy (?)
-* Alternative credit assignment
+* Approximate credit assignment
 
 ## Semester 2
 
