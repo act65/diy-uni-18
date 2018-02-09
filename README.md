@@ -51,21 +51,6 @@ Projects
 
 ## Semester 2
 
-#### Eng 377: (Graph) signal processing
-
-* Sparse representations: The fourier transformation
-* The laplacian
-* Graph embeddings for ML
-
-#### Stats 323: (Statistical) learning theory
-
-* Sample complexity
-* Assumptions about the data (IID, noise, ...)
-* Complexity measures and bounding generalisation
-* Overfitting
-
-## Semester 3
-
 #### Math 447: Tensor networks
 
 Readings
@@ -84,19 +69,39 @@ Projects
 
 #### Data science 453: Learning discrete models
 
+_Somewhat based off [David's course on Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)_
+
 <!-- What about learning PGMs -->
 
-Reading
+Readings
 
-* Non differentiable ops: Rebar, concrete, <!-- Gradient estimation through non-differentiable operations and various data structures
- -->
+* Non differentiable ops: Stochastic, discrete, unknown. [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), ?. 
+* [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients
 * Combinatorial optimisation
-* Learning discretised networks (ES, distillation, quantisation, ...?)
+* [TernGrad]()
 
-* Extract an automata from a learned network
-* Discretise ...
-* ?
+Projects
+
+* Extract/distill an automata from a (recurrent) neural network
+* Non-linearities in linear networks exploited by ES
+* Quantisation ... ?
+* Quantised gradients
+
+## Semester 3
+
+#### Eng 377: (Graph) signal processing
+
+* Sparse representations: The fourier transformation
+* The laplacian
+* Graph embeddings for ML
+
+#### Stats 323: (Statistical) learning theory
+
+* Sample complexity
+* Assumptions about the data (IID, noise, ...)
+* Complexity measures and bounding generalisation
+* Overfitting
 
 ## Semester 4
 
@@ -119,11 +124,7 @@ Readings
 
 Projects
 
-* 
-
-
-
-
+* ?
 
 
 ## Project
