@@ -130,10 +130,3 @@ Projects
 > Automated science and math.
 
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
-
-## Dates
-
-* Semester 1: March 5th - June 8th
-* Semester 2: July 2nd - October 12th
-* Semester 3: March 5th - June 8th
-* Semester 4: July 2nd - October 12th
