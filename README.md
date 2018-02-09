@@ -1,5 +1,5 @@
 
-Self-taught course in data science and related math.
+Course in data science, machine learning and related math.
 
 ## Semester 1
 
