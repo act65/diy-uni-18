@@ -111,19 +111,11 @@ Projects
 * Factorisation machines
 * Neural networks as a tensor decomposition?
 
-#### Natural language processing
-<!-- Could spend a whole year on this... Linguistics, evolution of language, programming languages, types, ... ?-->
+#### Topological data analysis
 
-Readings
-
-* Question answering
-* Summarisation
-* Entailment
-
-Projects
-
+* Clustering
+* Connectedness
 * ?
-
 
 ## Project
 
