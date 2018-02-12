@@ -3,7 +3,7 @@ Course in data science, machine learning and related math.
 
 ## Semester 1
 
-#### Math 441: (Online and/or convex) Optimisation
+#### (Online and/or convex) Optimisation
 
 * Is online optimisation equivalent to memory-limited optimisation?
 * What are the distinct problems that non-convex optimisation brings?
@@ -23,7 +23,7 @@ Projects
 * Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
 * Kronecker-factored approximation (Higher order gradients)
 
-#### Data science 452: Credit assignment
+#### Credit assignment
 
 * What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
@@ -49,7 +49,7 @@ Projects
 
 ## Semester 2
 
-#### Math 447: Tensor networks
+#### Tensor networks
 
 Readings
 
@@ -65,7 +65,7 @@ Projects
 * ?
 
 
-#### Data science 453: Learning discrete models
+#### Learning discrete models
 
 _Somewhat based off [David's course on Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)_
 
@@ -88,13 +88,13 @@ Projects
 
 ## Semester 3
 
-#### Eng 377: (Graph) signal processing
+#### (Graph) signal processing
 
 * Sparse representations: The fourier transformation
 * The laplacian
 * Graph embeddings for ML
 
-#### Stats 323: (Statistical) learning theory
+#### (Statistical) learning theory
 
 * Sample complexity
 * Assumptions about the data (IID, noise, ...)
