@@ -51,19 +51,20 @@ Projects
 
 #### Tensor networks
 
+* Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
+
 Readings
 
-* Case study: Singular value decomposition(s) - HOSVD, HSVD
+* Case study: Singular value decomposition(s) - HOSVD, [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
-* ?
+* [Deep multi grids](https://arxiv.org/abs/1711.03825)
 
 Projects
 
 * Reshaping tensors, what is this really doing?
 * Implement and explore the properties of a complex tensor network
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
-* ?
-
+* Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 
 #### Learning discrete models
 
@@ -105,11 +106,16 @@ Projects
 
 #### Representation/approximation theory
 
+* Neural networks as a tensor decomposition?
+
+Readings
+
 * Curve fitting
 * Deep vs wide
 * Alternative representations?
 * Factorisation machines
-* Neural networks as a tensor decomposition?
+* [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
+
 
 #### Topological data analysis
 
