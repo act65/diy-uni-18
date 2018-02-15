@@ -13,22 +13,22 @@ Course in pure and applied math.
 #### Category theory
 
 
-#### Graph theory
+#### ?
 
 
 ## Semester 3
 
 #### Matriods
 
-#### HOT
+#### Graph theory
 
 
 ## Semester 4
 
-#### ?
+#### Dynamical systems
 
 
-#### 
+#### HOT
 
 
 ## Project
