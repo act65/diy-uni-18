@@ -17,10 +17,7 @@ Course in cognitive science, with a focus on computational neuroscience and ling
 ## Semester 2
 
 
-#### Programming languages
-
-* Compilers
-* 
+#### ?
 
 #### Computational neuroscience: ?
 
