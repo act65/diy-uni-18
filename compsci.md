@@ -1,8 +1,8 @@
-Course in cognitive science, with a focus on computational neuroscience and linguistics.
+Course in computer science.
 
 ## Semester 1
 
-#### Compilers
+#### ?
 
 * 
 * 
@@ -18,7 +18,10 @@ Course in cognitive science, with a focus on computational neuroscience and ling
 
 #### Programming languages
 
-
+* Functional
+* Recursion
+* Compilers
+* Types
 
 ## Semester 3
 
@@ -33,7 +36,7 @@ Course in cognitive science, with a focus on computational neuroscience and ling
 #### Neuromorphic
 
 
-#### ??? 
+#### COmputational complexity
 
 
 ## Project
