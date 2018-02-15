@@ -1,4 +1,4 @@
-Course in cognitive science, with a focus on computational neuroscience and linguistics.
+Course in pure and applied math.
 
 ## Semester 1
 
