@@ -74,7 +74,7 @@ _Somewhat based off [David's course on Learning Discrete Latent Structure](https
 
 Readings
 
-* Non differentiable ops: Stochastic, discrete, unknown. [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), ?. 
+* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098). 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients
 * Combinatorial optimisation
