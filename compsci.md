@@ -2,10 +2,14 @@ Course in computer science.
 
 ## Semester 1
 
-#### ?
 
-* 
-* 
+#### Programming languages
+
+* Functional
+* Recursion
+* Compilers
+* Types
+* Logic
 
 #### Data structures
 
@@ -16,27 +20,24 @@ Course in computer science.
 #### Searching and sorting
 
 
-#### Programming languages
-
-* Functional
-* Recursion
-* Compilers
-* Types
+* Tree search
+* 
 
 ## Semester 3
 
 #### Architecture
 
+* Neuromorphic
 
 #### Assembly
 
 
 ## Semester 4
 
-#### Neuromorphic
+#### Energy management
 
 
-#### COmputational complexity
+#### Computational complexity
 
 
 ## Project
