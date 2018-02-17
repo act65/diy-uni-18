@@ -76,23 +76,19 @@ Projects
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 
-#### Learning discrete models
+#### Gradient estimation
 
-_Somewhat based off [David's course on Learning Discrete Latent Structure](https://duvenaud.github.io/learn-discrete/)_
-
-<!-- What about learning PGMs -->
 
 Readings
 
 * Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098). 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients
+* Counterfactuals
 * Combinatorial optimisation
-* [TernGrad]()
 
 Projects
 
-* Extract/distill an automata from a (recurrent) neural network
 * Non-linearities in linear networks exploited by ES
 * Quantisation ... ?
 * Quantised gradients
@@ -138,3 +134,13 @@ Readings
 > Automated science and math.
 
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
+
+***
+
+> Compression (and beauty)
+
+<!-- What about learning PGMs -->
+
+* Extract/distill an automata from a (recurrent) neural network
+* Quantisation, distillation, ...? [TernGrad]()
+
