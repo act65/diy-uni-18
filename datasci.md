@@ -3,49 +3,59 @@ Course in data science, machine learning and related math.
 
 ## Semester 1
 
-#### (Online and/or convex) Optimisation
+#### Optimisation
+
+Questions
 
 * Is online optimisation equivalent to memory-limited optimisation?
 * What are the distinct problems that non-convex optimisation brings?
+* Why SGD?
+* ?
 
 Readings
 
 * [Potential-Function Proofs for First-Order Methods](https://arxiv.org/abs/1712.04581)
+* Case study on [ADAM]() and its update [AMSGRAD]()
 * Time and memory complexity
-* Case study on [ADAM]() and its repair [AMSGRAD]()
-* Lagrangian duals
+<!-- * Lagrangian duals -->
 * Regularisers as projections into the 'right' geometry.
 
 Projects
 
-* Implement streaming PCA
+<!-- * Implement streaming PCA -->
 * Tree based frequency sketch. Efficient memory in online setting.
 * Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
 * Kronecker-factored approximation (Higher order gradients)
+<!-- * ES? -->
+* ?
 
 #### Credit assignment
+
+Questions
 
 * What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
+* ?
 
 <!-- How do ES assign credit? A counterfactual. -->
 
 Readings
 
-* Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
 * [Backprop as Functor](https://arxiv.org/abs/1711.10455)
 * [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
-* Temporal differences?
+* Temporal differences
+* Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
 
 <!-- Would like some more readings on AD!? -->
 
 Projects
 
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
-* Implement efficient graph based reverse AD (not sure about this one...)
+<!-- * Implement efficient graph based reverse AD (not sure about this one...) -->
+* Alternative settings: assigning rewards in economies or citation networks
 * Long-term dependencies: pathological settings and the relationship to entropy (?)
-* Approximate credit assignment
+* Approximate credit assignment (for greater efficiency?)
 
 ## Semester 2
 
