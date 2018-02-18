@@ -4,8 +4,12 @@ Course in physics (with a view towards computation).
 
 #### Distributed
 
+* Energy and information must be distributed. How do this effect the design of computers?
+
 #### Entropy
 
+* Entropy of all the different types of energy. Thermodynamical, magnetic, electric, gravitational, ...
+* 
 
 ## Semester 2
 
@@ -24,7 +28,8 @@ Course in physics (with a view towards computation).
 #### Energy
 
 * Reversible
-* 
+* Variational principles/nother's theorem
+* ?
 
 ## Semester 4
 
