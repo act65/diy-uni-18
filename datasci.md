@@ -17,7 +17,7 @@ Questions
 
 Readings
 
-* Online optimisation: Mirror descent and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
+* Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
 * Convex optimisation: Lagrangian duals, 
 * Combinatorial optimisation: 
 * Adaptive momentum: [ADAM]() and its update [AMSGRAD]()
@@ -139,8 +139,6 @@ Readings
 > Automated science and math.
 
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
-
-***
 
 <!-- wishlist;
 - variational methods
