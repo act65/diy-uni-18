@@ -7,11 +7,13 @@ Course in data science, machine learning and related math.
 
 Questions
 
-* Is online optimisation equivalent to memory-limited optimisation?
+<!-- * Is online optimisation equivalent to memory-limited optimisation? -->
 * What are the distinct problems that non-convex optimisation brings?
-* Why SGD for NNs?
-* Bias and variance of gradient estimates??
-<!-- * Momentum/batches. THe implicit bias of ... -->
+* Why SGD for NNs? Why stochastic? Why (mini)-batched?
+* How should past information effect current decisions?
+* Why don't higher order optimisation algols work? 
+<!-- * Bias and variance of gradient estimates?? -->
+<!-- * Momentum/batches. The implicit bias of ... -->
 
 Readings
 
@@ -39,7 +41,7 @@ Questions
 * What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
-* ?
+* How is credit assignment more general than gradient descent?
 
 <!-- How do ES assign credit? A counterfactual. -->
 
