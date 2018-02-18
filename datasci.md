@@ -11,27 +11,27 @@ Questions
 * What are the distinct problems that non-convex optimisation brings?
 * Why SGD for NNs? Why stochastic? Why (mini)-batched?
 * How should past information effect current decisions?
-* Why don't higher order optimisation algols work? 
+* As a dynamical system!?
 <!-- * Bias and variance of gradient estimates?? -->
 <!-- * Momentum/batches. The implicit bias of ... -->
 
 Readings
 
-* Online and convex optimisation: Mirror descent and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
+* Online optimisation: Mirror descent and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
+* Convex optimisation: Lagrangian duals, 
+* Combinatorial optimisation: 
 * Adaptive momentum: [ADAM]() and its update [AMSGRAD]()
-* Combinatorial optimisation
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
-<!-- * Lagrangian duals -->
 
 Projects
 
 <!-- * Implement streaming PCA -->
 <!-- * ES? ADMM? CG? Newtons? ... -->
 <!-- * Tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!? -->
-* Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
-* Second order: Kronecker-factored approximation, hessian free, block hessian, ...?
-* Natural gradient descent (using the fisher)
+* Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
+* Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
+<!-- * Natural gradient descent (using the fisher) -->
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
 
 #### Credit assignment
@@ -58,8 +58,6 @@ Projects
 * Approximate credit assignment (for greater efficiency?)
 * ?
 
-## Semester 2
-
 #### Tensor networks
 
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
@@ -77,6 +75,8 @@ Projects
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 
+## Semester 2
+
 #### Gradient estimation
 
 Readings
@@ -92,9 +92,6 @@ Projects
 * Metalearning?
 * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
 
-
-## Semester 3
-
 #### (Graph) signal processing
 
 * Sparse representations: The fourier transformation
@@ -108,7 +105,7 @@ Projects
 * Complexity measures and bounding generalisation
 * Overfitting
 
-## Semester 4
+## Semester 3
 
 #### Representation/approximation theory
 
@@ -123,11 +120,19 @@ Readings
 * [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
 
 
-#### Topological data analysis
+#### Topological data analysis OR probabilistic inference
 
 * Clustering
 * Connectedness
 * ?
+
+#### Compression (and beauty)
+
+<!-- What about learning PGMs -->
+
+* Extract/distill an automata from a (recurrent) neural network
+* Quantisation, distillation, ...? [TernGrad]()
+
 
 ## Project
 
@@ -136,13 +141,6 @@ Readings
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
 
 ***
-
-> Compression (and beauty)
-
-<!-- What about learning PGMs -->
-
-* Extract/distill an automata from a (recurrent) neural network
-* Quantisation, distillation, ...? [TernGrad]()
 
 <!-- wishlist;
 - variational methods
