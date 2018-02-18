@@ -29,7 +29,7 @@ Projects
 <!-- * Implement streaming PCA -->
 <!-- * ES? ADMM? CG? Newtons? ... -->
 <!-- * Tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!? -->
-* Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
+* Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
 * Second order: Kronecker-factored approximation, hessian free, block hessian, ...?
 * Natural gradient descent (using the fisher)
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
@@ -41,26 +41,22 @@ Questions
 * What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
-* How is credit assignment more general than gradient descent?
-
-<!-- How do ES assign credit? A counterfactual. -->
+* Can it be framed as a communication problem?
 
 Readings
 
-* [Backprop as Functor](https://arxiv.org/abs/1711.10455)
-* [Learning long-term dependencies w GD is difficult](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf)
-* Temporal differences
+* Backprop and AD: [Backprop as Functor](https://arxiv.org/abs/1711.10455)
+* Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?
+* Alternatives: Temporal differences, 
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
-
-<!-- Would like some more readings on AD!? -->
 
 Projects
 
-* Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
 <!-- * Implement efficient graph based reverse AD (not sure about this one...) -->
-* Alternative settings: assigning rewards in economies or citation networks
-* Long-term dependencies: pathological settings and the relationship to entropy (?)
+* Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
+* Show that there exist pathological problems where learning long-term dependencies is hard. Explore the relationship  between what makes long-term dependencies hard and entropy. (where am I going to get some data!?)
 * Approximate credit assignment (for greater efficiency?)
+* ?
 
 ## Semester 2
 
@@ -94,6 +90,8 @@ Projects
 
 * Non-linearities in linear networks exploited by ES
 * Metalearning?
+* Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
+
 
 ## Semester 3
 
