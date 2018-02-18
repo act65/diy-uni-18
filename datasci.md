@@ -9,25 +9,28 @@ Questions
 
 * Is online optimisation equivalent to memory-limited optimisation?
 * What are the distinct problems that non-convex optimisation brings?
-* Why SGD?
-* ?
+* Why SGD for NNs?
+* Bias and variance of gradient estimates??
+<!-- * Momentum/batches. THe implicit bias of ... -->
 
 Readings
 
-* [Potential-Function Proofs for First-Order Methods](https://arxiv.org/abs/1712.04581)
-* Case study on [ADAM]() and its update [AMSGRAD]()
-* Time and memory complexity
+* Online and convex optimisation: Mirror descent and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
+* Adaptive momentum: [ADAM]() and its update [AMSGRAD]()
+* Combinatorial optimisation
+<!--* Implicit bias. Neyshabur? -->
+<!-- * Time and memory complexity -->
 <!-- * Lagrangian duals -->
-* Regularisers as projections into the 'right' geometry.
 
 Projects
 
 <!-- * Implement streaming PCA -->
-* Tree based frequency sketch. Efficient memory in online setting.
+<!-- * ES? ADMM? CG? Newtons? ... -->
+<!-- * Tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!? -->
 * Local gradient statistics <!-- Why is the necessary? Pathological surfaces that make point estimates useless -->
-* Kronecker-factored approximation (Higher order gradients)
-<!-- * ES? -->
-* ?
+* Second order: Kronecker-factored approximation, hessian free, block hessian, ...?
+* Natural gradient descent (using the fisher)
+<!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
 
 #### Credit assignment
 
@@ -78,20 +81,17 @@ Projects
 
 #### Gradient estimation
 
-
 Readings
 
-* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098). 
+* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), A\* sampling, 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients
 * Counterfactuals
-* Combinatorial optimisation
 
 Projects
 
 * Non-linearities in linear networks exploited by ES
-* Quantisation ... ?
-* Quantised gradients
+* Metalearning?
 
 ## Semester 3
 
@@ -144,3 +144,9 @@ Math and science have become too big for individuals. We find it hard to keep up
 * Extract/distill an automata from a (recurrent) neural network
 * Quantisation, distillation, ...? [TernGrad]()
 
+<!-- wishlist;
+- variational methods
+- causal inference
+- online algols
+- ?
+-->
