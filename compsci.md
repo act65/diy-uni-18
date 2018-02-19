@@ -12,7 +12,7 @@ Course in computer science.
 
 Projects
 
-* Write X in Rust, Go, js and Scala.
+* Write X in Haskell, Rust, Go, js? and Scala.
 * 
 
 #### Recursion
