@@ -60,20 +60,26 @@ Projects
 
 #### Tensor networks
 
+Questions
+
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
+* Reshaping tensors, what is this really doing?
+* What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
+*
 
 Readings
 
 * Case study: Singular value decomposition(s) - HOSVD, [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
 * [Deep multi grids](https://arxiv.org/abs/1711.03825)
+* ?
 
 Projects
 
-* Reshaping tensors, what is this really doing?
 * Implement and explore the properties of a complex tensor network
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
+* ?
 
 ## Semester 2
 
@@ -91,6 +97,8 @@ Projects
 * Non-linearities in linear networks exploited by ES
 * Metalearning?
 * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
+* Jacobian sensing, structure in the jacobian, invariance
+
 
 #### (Graph) signal processing
 
