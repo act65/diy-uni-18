@@ -6,13 +6,27 @@ Course in computer science.
 #### Programming languages
 
 * Functional
-* Recursion
 * Compilers
 * Types
 * Logic
 
-#### Data structures
+Projects
 
+* Write X in Rust, Go, js and Scala.
+* 
+
+#### Recursion
+
+* duality of operator and operand
+* Recursion schemes
+
+Projects
+
+* Recursive learning
+
+#### Scheduling
+
+* ?
 
 ## Semester 2
 
@@ -21,18 +35,21 @@ Course in computer science.
 
 
 * Tree search
-* 
+* Data structures (or have a seperate course?)
 
-## Semester 3
 
 #### Architecture
 
 * Neuromorphic
+* ?
+
+
+## Semester 3
+
 
 #### Assembly
 
 
-## Semester 4
 
 #### Energy management
 
