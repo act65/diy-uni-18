@@ -126,12 +126,26 @@ Readings
 * Connectedness
 * ?
 
-#### Compression (and beauty)
+#### Compression 
 
+<!-- (and beauty) -->
 <!-- What about learning PGMs -->
+
+Questions
+
+* 
+
+Readings
+
+* A theory of fun, beauty, ... Schmidhuber 2009
+* Hand designed compression of ?! (images/audio/text?)
+* 
+
+Projects
 
 * Extract/distill an automata from a (recurrent) neural network
 * Quantisation, distillation, ...? [TernGrad]()
+* Adaptive/online compression/coding
 
 
 ## Project
