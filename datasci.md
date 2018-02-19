@@ -11,7 +11,7 @@ Questions
 * What are the distinct problems that non-convex optimisation brings?
 * Why SGD for NNs? Why stochastic? Why (mini)-batched?
 * How could/should past information effect current decisions?
-* As a dynamical system!?
+* As a dynamical system!? <!-- huh, it's possible for this to be in a limit cycle! what about bifurications based on hyperparams?) -->
 <!-- * Bias and variance of gradient estimates?? -->
 <!-- * Momentum/batches. The implicit bias of ... -->
 
