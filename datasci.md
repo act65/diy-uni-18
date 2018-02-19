@@ -10,7 +10,7 @@ Questions
 <!-- * Is online optimisation equivalent to memory-limited optimisation? -->
 * What are the distinct problems that non-convex optimisation brings?
 * Why SGD for NNs? Why stochastic? Why (mini)-batched?
-* How should past information effect current decisions?
+* How could/should past information effect current decisions?
 * As a dynamical system!?
 <!-- * Bias and variance of gradient estimates?? -->
 <!-- * Momentum/batches. The implicit bias of ... -->
@@ -19,8 +19,8 @@ Readings
 
 * Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
 * Convex optimisation: Lagrangian duals, 
-* Combinatorial optimisation: 
-* Adaptive momentum: [ADAM]() and its update [AMSGRAD]()
+* Combinatorial optimisation: (related to saticficing?)
+* Non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?)
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
 
