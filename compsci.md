@@ -19,6 +19,7 @@ Projects
 
 * duality of operator and operand
 * Recursion schemes
+* https://github.com/slamdata/matryoshka
 
 Projects
 
