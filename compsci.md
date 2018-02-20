@@ -42,8 +42,9 @@ Projects
 #### Architecture
 
 * Neuromorphic
+* From NAND to Tetris
+* Y86
 * ?
-
 
 ## Semester 3
 
