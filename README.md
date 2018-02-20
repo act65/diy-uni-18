@@ -17,6 +17,7 @@ A broad and deep view of each topic. Not necessarily focusing on the sota, but r
 Ideally, I would like to;
 * question some of the basic assumptions and definitions,
 * find alternate interpretations,
+* be able to answer; "what problem does it solve/what makes it hard?",
 * develop intuition for the topic.
 
 ### Assesment
