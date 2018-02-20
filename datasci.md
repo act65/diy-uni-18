@@ -67,7 +67,7 @@ Questions
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
 * Reshaping tensors, what is this really doing?
 * What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
-* ?
+* Relationship to learning? (matrix completion?) [X_train, Y_train], [X_test, ?].
 <!-- * What is happening when you contract over two paths? (marginalisation of two variables?) -->
 
 Readings
@@ -82,7 +82,8 @@ Projects
 * Implement and explore the properties of a complex tensor network. Does it have the same represeantional capacity?
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
-* ?
+* Symmetry in the tensor network reflectin in the problem?
+* Differentiable learning of tensor nets?
 
 ## Semester 2
 
