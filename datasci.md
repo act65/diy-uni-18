@@ -75,7 +75,7 @@ Readings
 * Case study: Singular value decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
 * [Deep multi grids](https://arxiv.org/abs/1711.03825)
-* []() ???
+* []() ??? A graphical language. Composition, ...
 
 Projects
 
