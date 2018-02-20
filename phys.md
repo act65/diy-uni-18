@@ -2,16 +2,11 @@ Course in physics (with a view towards computation).
 
 ## Semester 1
 
-#### Distributed
-
-* Energy and information must be distributed. How do this effect the design of computers?
-
 #### Entropy
 
 * Entropy of all the different types of energy. Thermodynamical, magnetic, electric, gravitational, ...
-* 
-
-## Semester 2
+* Framed as the distribution of energy
+* Relationship to info theory?
 
 #### Condensed matter, phases, complexity
 
@@ -19,20 +14,44 @@ Course in physics (with a view towards computation).
 #### Electrodynamics
 
 
-
-## Semester 3
-
-#### Particle physics
+## Semester 2
 
 
 #### Energy
 
-* Reversible
+* Reversible processes
 * Variational principles/nother's theorem
 * ?
 
-## Semester 4
+#### Particle physics
+
+* Strong and weak forces
+
+
+#### Relativity?
+
+
+## Semester 3
+
+
+#### Distributed
+
+* Energy and information must be distributed. How do this effect the design of computers?
+
 
 #### Quantum
 
-#### ?
+* Bohmian mechanics
+* Algols?
+* 
+
+#### Symmetry
+
+* More on noether's theorem?
+
+<!-- Wishlist
+- mass
+- fusion
+- uncertainty principle
+- ?
+-->
