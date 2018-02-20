@@ -14,13 +14,14 @@ Questions
 * As a dynamical system!? <!-- huh, it's possible for this to be in a limit cycle! what about bifurications based on hyperparams?) -->
 <!-- * Bias and variance of gradient estimates?? -->
 <!-- * Momentum/batches. The implicit bias of ... -->
+<!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 
 Readings
 
 * Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
-* Convex optimisation: Lagrangian duals, 
+* Convex optimisation: Lagrangian duals, [Leveling with Lagrange](), ? 
 * Combinatorial optimisation: (related to saticficing?)
-* Non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?)
+<!-- * Non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?) -->
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
 
@@ -31,7 +32,8 @@ Projects
 <!-- * Tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!? -->
 * Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
 * Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
-<!-- * Natural gradient descent (using the fisher) -->
+* Natural gradient descent (using the fisher)
+* Optimisation as a search. Why dont typical search algols apply here?
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
 
 #### Credit assignment
@@ -42,10 +44,11 @@ Questions
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
 * Can it be framed as a communication problem?
+<!-- To assign credit, two things need to be, in some sense, connected. Ability to communicate feedback. -->
 
 Readings
 
-* Backprop and AD: [Backprop as Functor](https://arxiv.org/abs/1711.10455)
+* Backprop and AD: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
 * Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?
 * Alternatives: Temporal differences, 
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
@@ -166,5 +169,7 @@ Math and science have become too big for individuals. We find it hard to keep up
 - variational methods
 - causal inference
 - online algols
-- ?
+- another on optimisation...
+- transfer, active, meta, .. learning
+- focus on stability, sparsity, 
 -->
