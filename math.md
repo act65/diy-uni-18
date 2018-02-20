@@ -6,9 +6,9 @@ Course in pure and applied math.
 
 * Symmetry
 * Moonshine
-* Various algebras (duals, Clifford algebras, ...?)
+* Various algebras (duals, Clifford algebras, ...? Symplectic?)
 * Review of groups, fields, rings, ...
-* Symplectic?
+* ?
 
 #### Signal processing and sparsity
 
@@ -50,19 +50,24 @@ Course in pure and applied math.
 * HOTT
 * ?
 
+#### Information theory
+
+* AIT
+* Kolmogorov complexity
+* ?
+
 #### ?
 
-
-
-#### ?
-
-## Project
-
-??
 
 
 <!-- Withlist/possibilities
 - stats
 - game theory
 - numerical analysis
+- functional analysis
+- topology?
+- ?
+
+- non-linear type systems
+- ?
 -->
