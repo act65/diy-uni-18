@@ -8,33 +8,32 @@ Course in data science, machine learning and related math.
 Questions
 
 <!-- * Is online optimisation equivalent to memory-limited optimisation? -->
+* Optimisation as a search. Why dont typical search algols apply here?
 * What are the distinct problems that non-convex optimisation brings?
-* Why SGD for NNs? Why stochastic? Why (mini)-batched?
-* How could/should past information effect current decisions?
-* As a dynamical system!? <!-- huh, it's possible for this to be in a limit cycle! what about bifurications based on hyperparams?) -->
+* Why SGD for NNs? Why stochastic? Why (mini)-batched? Why does it work in practice? <!-- lack of spurious minima, ?, ... -->
+* (How) Could/should past information effect current decisions? (aka momentum? relationship to dynamical/physical systems?!)
+<!-- * As a dynamical system!? huh, it's possible for this to be in a limit cycle! what about bifurications based on hyperparams?) -->
 <!-- * Bias and variance of gradient estimates?? -->
-<!-- * Momentum/batches. The implicit bias of ... -->
-<!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 
 Readings
 
 * Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
-* Convex optimisation: Lagrangian duals, [Leveling with Lagrange](), ? 
+* Convex optimisation: Lagrangian duals, [Leveling with Lagrange](), ? (constrained optimisation?!)
 * Combinatorial optimisation: (related to saticficing?)
-<!-- * Non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?) -->
+<!-- * Momentum for non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?) -->
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
+<!-- * Natural gradient descent (using the fisher) -->
 
 Projects
 
-<!-- * Implement streaming PCA -->
-<!-- * ES? ADMM? CG? Newtons? ... -->
-<!-- * Tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!? -->
+<!-- * Alternatives to SGD. ES? ADMM? CG? Newtons? Fisher?  ... -->
 * Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
 * Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
-* Natural gradient descent (using the fisher)
-* Optimisation as a search. Why dont typical search algols apply here?
+* Model based optimisation rather than black box optimisation!?
+<!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
+
 
 #### Credit assignment
 
@@ -43,7 +42,7 @@ Questions
 * What conditions make assigning credit hard?
 * Why do we want gradients/why do we care?
 * What problem does AD solve?
-* Can it be framed as a communication problem?
+* Can credit assignment be framed in a communication setting?
 <!-- To assign credit, two things need to be, in some sense, connected. Ability to communicate feedback. -->
 
 Readings
@@ -68,18 +67,19 @@ Questions
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
 * Reshaping tensors, what is this really doing?
 * What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
-*
+* ?
+<!-- * What is happening when you contract over two paths? (marginalisation of two variables?) -->
 
 Readings
 
-* Case study: Singular value decomposition(s) - HOSVD, [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
+* Case study: Singular value decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
 * [Deep multi grids](https://arxiv.org/abs/1711.03825)
-* ?
+* []() ???
 
 Projects
 
-* Implement and explore the properties of a complex tensor network
+* Implement and explore the properties of a complex tensor network. Does it have the same represeantional capacity?
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 * ?
@@ -168,7 +168,7 @@ Math and science have become too big for individuals. We find it hard to keep up
 <!-- wishlist;
 - variational methods
 - causal inference
-- online algols
+- online algols -- tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!?
 - another on optimisation...
 - transfer, active, meta, .. learning
 - focus on stability, sparsity, 
