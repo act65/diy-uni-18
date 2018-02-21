@@ -1,4 +1,4 @@
-Course in cognitive science, with a focus on computational neuroscience and linguistics.
+Course in cognitive science, with a focus on computational neuroscience, reasoning and linguistics.
 
 ## Semester 1
 
@@ -14,15 +14,14 @@ Course in cognitive science, with a focus on computational neuroscience and ling
 * ?
 * ?
 
-## Semester 2
-
 
 #### ?
 
+## Semester 2
+
+
 #### Computational neuroscience: ?
 
-
-## Semester 3
 
 #### Natural language processing
 
@@ -44,7 +43,8 @@ Projects
 * 
 
 
-## Semester 4
+## Semester 3
+
 
 #### Evolution of the brain
 
@@ -52,6 +52,7 @@ Projects
 
 #### Epigenetics of memory and learning
 
+* ...
 
 ## Project
 
