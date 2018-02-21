@@ -103,6 +103,8 @@ Projects
 * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
 * Jacobian sensing, structure in the jacobian, invariance
 
+<!-- https://blog.openai.com/nonlinear-computation-in-linear-networks/ 
+http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ -->
 
 #### (Graph) signal processing
 
