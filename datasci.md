@@ -134,11 +134,12 @@ Readings
 * [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
 
 
-#### Topological data analysis OR probabilistic inference
+#### Probabilistic inference
 
-* Clustering
-* Connectedness
-* ?
+* PGMs
+* Variational inference
+* Causal inference
+* https://ermongroup.github.io/cs228-notes/
 
 #### Compression 
 
@@ -169,10 +170,8 @@ Projects
 Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
 
 <!-- wishlist;
-- variational methods
-- causal inference
 - online algols -- tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!?
 - another on optimisation...
 - transfer, active, meta, .. learning
-- focus on stability, sparsity, 
+- Topological data analysis, clustering, connectedness, 
 -->
