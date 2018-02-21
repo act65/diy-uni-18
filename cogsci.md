@@ -55,4 +55,4 @@ Projects
 
 ## Project
 
-??
+Biologically plausible models of language acquisition.
