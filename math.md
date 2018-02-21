@@ -66,7 +66,8 @@ Course in pure and applied math.
 - numerical analysis
 - functional analysis
 - topology?
-- ?
+- calculus - discrete, functional, fractional, ...
+- complex number, holomorphic functions, 
 
 - non-linear type systems
 - ?
