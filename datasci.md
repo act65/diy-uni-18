@@ -19,7 +19,7 @@ Readings
 
 * Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
 * Convex optimisation: Lagrangian duals, [Leveling with Lagrange](), ? (constrained optimisation?!)
-* Combinatorial optimisation: (related to saticficing?)
+* Combinatorial optimisation: Satisfiability, (related to saticficing?)
 <!-- * Momentum for non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?) -->
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
@@ -154,13 +154,16 @@ Readings
 
 * A theory of fun, beauty, ... Schmidhuber 2009
 * Hand designed compression of ?! (images/audio/text?)
-* 
+
 
 Projects
 
-* Extract/distill an automata from a (recurrent) neural network
+* Automata theory and RNNs
+  * Extract/distill an automata from a (recurrent) neural network. 
+  * Can a RNN learn a push down or turing machine ??
 * Quantisation, distillation, ...? [TernGrad]()
 * Adaptive/online compression/coding
+
 
 
 ## Project
