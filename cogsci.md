@@ -57,3 +57,7 @@ Projects
 ## Project
 
 Biologically plausible models of language acquisition.
+
+<!-- 
+Experiments with cerebral organiods. Preferable a way to automate this!?
+-->
