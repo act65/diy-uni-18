@@ -59,11 +59,29 @@ Projects
 
 #### (Statistical) learning theory
 
+Questions
+
+* 
+
+Readings
+
+* PAC framework
+* Complexity measures 
+* Generalisation
+* 
+
+Projects
+
+* Reproduce ?
+* Iteratively construct a net
+* ?
+
+<!--
 * Sample complexity
 * Assumptions about the data (IID, noise, ...)
-* Complexity measures and bounding generalisation
-* Overfitting
+-->
 
+<!-- Fitting the data is not enought, needs to generalise! -->
 ## Semester 2
 
 #### Credit assignment
@@ -90,6 +108,7 @@ Projects
 * Show that there exist pathological problems where learning long-term dependencies is hard. Explore the relationship  between what makes long-term dependencies hard and entropy. (where am I going to get some data!?)
 * Approximate credit assignment (for greater efficiency?)
 * ?
+
 #### Structured learning/statistical relation learning
 
 * (Graph) signal processing
