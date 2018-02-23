@@ -8,13 +8,18 @@ A course on complex adaptive systems.
 #### Evolution
 
 
+#### Reinforcement learning
+
+
 ## Semester 2
 
 #### Multi-agent settings
 
 * Collaboration and competition
 
-#### Reinforcement learning
+#### Exploration
+
+#### Signalling
 
 ## Semester 3
 
