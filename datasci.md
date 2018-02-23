@@ -63,20 +63,27 @@ Projects
 
 Questions
 
+* Searching through hypothesis space, ...
+* Measuring complexity of a given hypothesis
+* Occams razor! Flexibility vs complexity.
 * 
 
 Readings
 
+* Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf)
 * PAC framework
-* Complexity measures 
-* Generalisation
-* 
+* Capacity and simplicity
+* Generalisation: [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667)
+* Implicit biases
+
 
 Projects
 
 * Reproduce ?
 * Iteratively construct a net
-* ?
+* Formulate a measure the complexity of a neural network. <!-- By non-linearity? -->
+* Achieve low sample complexity on MNIST (training 1 epoch on only the test set, 5000 images).
+* Non-IID setting
 
 <!--
 * Sample complexity
