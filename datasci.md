@@ -64,10 +64,10 @@ Projects
 
 Questions
 
-* Searching through hypothesis space, ...
 * Measuring complexity of a given hypothesis
 * Occams razor! Flexibility vs complexity.
-* 
+* What is necessary/sufficient for some X to be learnable? What is necesary/sufficient to prove that humans are learnable via natural selection?
+* What would a theory of learning/generalisation look like? What would it tell us?
 
 Readings
 
@@ -87,6 +87,7 @@ Projects
 * Non-IID setting
 * The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise?
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ...
+<!-- * Searching through hypothesis space, ... -->
 
 <!--
 * Sample complexity
