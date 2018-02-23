@@ -1,4 +1,3 @@
-
 Course in data science, machine learning and related math.
 
 ## Semester 1
@@ -89,8 +88,16 @@ Projects
 
 #### Gradient estimation
 
+Questions
+
+* What is necessary for a gradient? Some kind of connectedness?
+* Biased and variant estimates of the gradient, why do they matter?
+* What if I already know something about the structure of the function?
+* 
+
 Readings
 
+<!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
 * Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), A\* sampling, 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients
@@ -101,7 +108,9 @@ Projects
 * Non-linearities in linear networks exploited by ES
 * Metalearning?
 * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
-* Jacobian sensing, structure in the jacobian, invariance
+* Jacobian sensing, structure in the jacobian, invariance [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
+* Synthetic gradients
+
 
 <!-- https://blog.openai.com/nonlinear-computation-in-linear-networks/ 
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ -->
