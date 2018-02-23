@@ -2,33 +2,32 @@ Course in data science, machine learning and related math.
 
 ## Semester 1
 
-#### Gradient estimation
+#### Gradient computation
 
 Questions
 
-* What is necessary for a gradient? Some kind of connectedness?
+* What is necessary for calculating gradient? Some kind of locality/connectedness?
 * Biased and variant estimates of the gradient, why do they matter?
-* What if I already know something about the structure of the function?
-* 
+* Why do we want gradients/why do we care?
+* What problem does AD solve?
 
 Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
+* Automatic differentiation: [?](), [?]()
 * Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), A\* sampling, 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
-* Alternatives and approximations to gradients
-* Counterfactuals
+* Alternatives and approximations to gradients; Synthetic gradients, ?
+<!-- * Counterfactuals -->
 
 Projects
 
-* Non-linearities in linear networks exploited by ES
-* Metalearning?
-* Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
-* Jacobian sensing, structure in the jacobian, invariance [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
-* Synthetic gradients
+* [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing) and (?) structure in the jacobian, invariance. What if I already know something about the structure of the function? How can that help me estimate its jacobian?
+* Explore [Non-linearities in linear networks exploited by ES](https://blog.openai.com/nonlinear-computation-in-linear-networks/ ) <!-- difference in how you calculate the gradients leads to ... -->
+* Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
+* Add AD for non-differentiable ops to tensorflow?!
 
-
-<!-- https://blog.openai.com/nonlinear-computation-in-linear-networks/ 
+<!-- 
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ -->
 
 #### Tensor networks
@@ -38,24 +37,27 @@ Questions
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
 * Reshaping tensors, what is this really doing?
 * What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
-* Relationship to learning? (matrix completion?) [X_train, Y_train], [X_test, ?].
+* Symmetry/structure in the tensor network reflected in the problem?
+<!-- * Relationship to learning? (matrix completion?) [X_train, Y_train], [X_test, ?]. -->
 <!-- * What is happening when you contract over two paths? (marginalisation of two variables?) -->
+<!-- how are they trained? -->
 
 Readings
 
 * Case study: Singular value decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
-* [Deep multi grids](https://arxiv.org/abs/1711.03825)
 * []() ??? A graphical language. Composition, ...
+* ?
+<!-- [Deep multi grids](https://arxiv.org/abs/1711.03825) maybe do in dynamical systems? -->
 
 Projects
 
 * Implement and explore the properties of a complex tensor network. Does it have the same represeantional capacity?
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
-* Play with/benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
-* Symmetry in the tensor network reflectin in the problem?
-* Differentiable learning of tensor nets?
+* Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
+* Some sort of contribution...
 
+<!-- * Differentiable learning of tensor nets? -->
 
 #### (Statistical) learning theory
 
@@ -89,25 +91,25 @@ Projects
 Questions
 
 * What conditions make assigning credit hard?
-* Why do we want gradients/why do we care?
-* What problem does AD solve?
+* ?
+* ?
 * Can credit assignment be framed in a communication setting?
 <!-- To assign credit, two things need to be, in some sense, connected. Ability to communicate feedback. -->
 
 Readings
 
-* Backprop and AD: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
+* Backprop: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
 * Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?
-* Alternatives: Temporal differences, 
+* Alternatives: Temporal differences, ?
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
 
 Projects
 
 <!-- * Implement efficient graph based reverse AD (not sure about this one...) -->
-* Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
 * Show that there exist pathological problems where learning long-term dependencies is hard. Explore the relationship  between what makes long-term dependencies hard and entropy. (where am I going to get some data!?)
 * Approximate credit assignment (for greater efficiency?)
 * ?
+<!-- * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks. -->
 
 #### Structured learning/statistical relation learning
 
