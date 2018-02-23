@@ -46,9 +46,10 @@ Readings
 
 * Case study: Singular value decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
-* []() ??? A graphical language. Composition, ...
+* A graphical language for linalg. [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950), ?
 * ?
 <!-- [Deep multi grids](https://arxiv.org/abs/1711.03825) maybe do in dynamical systems? -->
+<!-- What about a TNs topology? -->
 
 Projects
 
@@ -82,8 +83,10 @@ Projects
 * Reproduce ?
 * Iteratively construct a net
 * Formulate a measure the complexity of a neural network. <!-- By non-linearity? -->
-* Achieve low sample complexity on MNIST (training 1 epoch on only the test set, 5000 images).
+* Achieve low sample complexity on MNIST (training 1 epoch on only the test set, 5000 images). <!-- all this is really asking is. add more priors!? -->
 * Non-IID setting
+* The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise?
+* Generalisation to different inputs. MINST - 1 vs 2 vs 3, ...
 
 <!--
 * Sample complexity
