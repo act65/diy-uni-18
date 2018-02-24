@@ -22,6 +22,6 @@ Ideally, I would like to;
 
 ### Assesment
 
-* Readings. Summarised and explained in simple terms.
+* Readings. Four papers summarised and explained in simple terms, pictures, pseudo-code and proofs with annotations.
 * Assignments. Ready for public viewing (proof read, tidied, ...)
 * Questions. Answered, with sources, proofs and/or experiments to validate.
