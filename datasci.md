@@ -37,7 +37,7 @@ Questions
 * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
 * Reshaping tensors, what is this really doing?
 * What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
-* Symmetry/structure in the tensor network reflected in the problem?
+* How can the topology of data be build into the topology of a tensor network? Symmetry/structure in the tensor network reflected in the problem?
 <!-- * Relationship to learning? (matrix completion?) [X_train, Y_train], [X_test, ?]. -->
 <!-- * What is happening when you contract over two paths? (marginalisation of two variables?) -->
 <!-- how are they trained? -->
@@ -56,7 +56,7 @@ Projects
 * Implement and explore the properties of a complex tensor network. Does it have the same represeantional capacity?
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
-* Some sort of contribution...
+* Tensor network visualisation tool? 
 
 <!-- * Differentiable learning of tensor nets? -->
 
@@ -75,15 +75,17 @@ Readings
 * Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf)
 * PAC learning framework
 * Capacity and simplicity
-* Implicit biases
+
 
 Projects
 
 * Reproduce experiments from [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667)
-* Iteratively construct a net<!-- saddle splitting network? -->
-* Formulate a measure the complexity of a neural network. <!-- By non-linearity? -->
+* Compress/annotate XXX proof (Implicit biases)
+* Add measure of complexity to tensorflow <!-- measure by non-linearity? -->
 * The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy.
+
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?!)
+* Iteratively construct a net<!-- saddle splitting network? -->
 <!-- * Searching through hypothesis space, ... -->
 <!-- Flat minima -->
 
