@@ -63,6 +63,7 @@ Projects
 
 #### (Statistical) learning theory
 
+<!-- Fitting the data is not enought, needs to generalise! -->
 Questions
 
 * Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility-->
@@ -80,19 +81,14 @@ Readings
 Projects
 
 * Training in a non-IID setting. Correlated mnist, you recieve the digits in numerical order.
-<!-- * Add measure of complexity to tensorflow -->
 * The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy.
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?!)
 * Iteratively construct a net<!-- saddle splitting network? -->
-<!-- * Searching through hypothesis space, ... -->
+<!-- Validate a measure of complexity and add it to tensorflow -->
+<!-- Searching through hypothesis space, ... -->
 <!-- Flat minima -->
+<!-- Find an example of something a NN cant learn -->
 
-<!--
-* Sample complexity
-* Assumptions about the data (IID, noise, ...)
--->
-
-<!-- Fitting the data is not enought, needs to generalise! -->
 ## Semester 2
 
 #### Credit assignment
@@ -100,10 +96,11 @@ Projects
 Questions
 
 * What conditions make assigning credit hard?
-* ?
-* ?
 * Can credit assignment be framed in a communication setting?
-<!-- To assign credit, two things need to be, in some sense, connected. Ability to communicate feedback. -->
+* ?
+* ?
+<!-- To assign credit, you need the ops to be connected/locally linear? No, that is just for propagating via chain rule. -->
+<!-- must be connected in some sense? Ability to communicate feedback. -->
 
 Readings
 
