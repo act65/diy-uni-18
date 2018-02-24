@@ -15,17 +15,17 @@ Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
 * Automatic differentiation: [?](), [?]() <!-- * What problem does AD solve? -->
-* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), A\* sampling, 
+* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](https://arxiv.org/abs/1703.07370), [Concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098).
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
-* Alternatives and approximations to gradients; Synthetic gradients, ?
-<!-- * Counterfactuals -->
+* Alternatives and approximations to gradients; Temporal differences, synthetic gradients, ?
 
 Projects
 
 * [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing) and (?) structure in the jacobian, invariance. What if I already know something about the structure of the function? How can that help me estimate its jacobian?
 * Explore [Non-linearities in linear networks exploited by ES](https://blog.openai.com/nonlinear-computation-in-linear-networks/ ) <!-- difference in how you calculate the gradients leads to ... -->
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
-* Add AD for non-differentiable ops to tensorflow?!
+* Local queries for gradient estimation. Counterfactuals
+<!-- * Add AD for non-differentiable ops to tensorflow?! -->
 
 <!-- 
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
