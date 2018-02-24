@@ -6,15 +6,15 @@ Course in data science, machine learning and related math.
 
 Questions
 
-* What is necessary for calculating gradient? Some kind of locality/connectedness?
-* Biased and variant estimates of the gradient, why do they matter?
+* What is necessary/sufficient for calculating a gradient? <!-- Some kind of locality/connectedness? -->
 * Why do we want gradients/why do we care?
-* What problem does AD solve?
+* Estimation versus derivation? <!-- (complexity? sample versus coputational?) -->
+* Biased and/or variant estimates of a gradient, why does it matter?
 
 Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
-* Automatic differentiation: [?](), [?]()
+* Automatic differentiation: [?](), [?]() <!-- * What problem does AD solve? -->
 * Non differentiable ops: Stochastic, discrete, unknown... [Rebar](), [concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), A\* sampling, 
 * [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
 * Alternatives and approximations to gradients; Synthetic gradients, ?
@@ -65,29 +65,27 @@ Projects
 Questions
 
 * Measuring complexity of a given hypothesis
-* Occams razor! Flexibility vs complexity.
-* What is necessary/sufficient for some X to be learnable? What is necesary/sufficient to prove that humans are learnable via natural selection?
+* Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility-->
+* What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What would a theory of learning/generalisation look like? What would it tell us?
+* How could training in a non-IID setting work?
 
 Readings
 
 * Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf)
-* PAC framework
+* PAC learning framework
 * Capacity and simplicity
-* Generalisation: [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667)
 * Implicit biases
-
 
 Projects
 
-* Reproduce ?
-* Iteratively construct a net
+* Reproduce experiments from [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667)
+* Iteratively construct a net<!-- saddle splitting network? -->
 * Formulate a measure the complexity of a neural network. <!-- By non-linearity? -->
-* Achieve low sample complexity on MNIST (training 1 epoch on only the test set, 5000 images). <!-- all this is really asking is. add more priors!? -->
-* Non-IID setting
-* The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise?
-* Generalisation to different inputs. MINST - 1 vs 2 vs 3, ...
+* The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy.
+* Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?!)
 <!-- * Searching through hypothesis space, ... -->
+<!-- Flat minima -->
 
 <!--
 * Sample complexity
