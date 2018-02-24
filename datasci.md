@@ -28,7 +28,8 @@ Projects
 * Add AD for non-differentiable ops to tensorflow?!
 
 <!-- 
-http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ -->
+http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
+-->
 
 #### Tensor networks
 
@@ -64,7 +65,6 @@ Projects
 
 Questions
 
-* Measuring complexity of a given hypothesis
 * Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility-->
 * What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What would a theory of learning/generalisation look like? What would it tell us?
@@ -72,18 +72,16 @@ Questions
 
 Readings
 
-* Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf)
-* PAC learning framework
+* Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), PAC learning framework
 * Capacity and simplicity
-
+* Measuring complexity of a given hypothesis
+* [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667) <!-- reproduce experiments from-->
 
 Projects
 
-* Reproduce experiments from [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667)
-* Compress/annotate XXX proof (Implicit biases)
+* Compress/annotate XXX proof (Implicit biases? easuring capacity? generalisation via spectral norm? ???)
 * Add measure of complexity to tensorflow <!-- measure by non-linearity? -->
 * The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy.
-
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?!)
 * Iteratively construct a net<!-- saddle splitting network? -->
 <!-- * Searching through hypothesis space, ... -->
