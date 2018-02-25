@@ -6,27 +6,29 @@ Course in data science, machine learning and related math.
 
 Questions
 
-* What is necessary/sufficient for calculating a gradient? <!-- Some kind of locality/connectedness? -->
 * Why do we want gradients/why do we care?
-* Biased and/or variant estimates of a gradient, why does it matter?
+* What is necessary/sufficient for calculating a gradient? <!-- Some kind of locality/connectedness? -->
+* Is there a more general formuation of differences that unifies; finite, temporal, counterfactual, ...?
 * ?
+
 
 Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
-* Automatic differentiation: [?](), [?]() <!-- * What problem does AD solve? -->
+* Automatic differentiation: [stability](https://link.springer.com/article/10.1007/s00607-011-0162-z), [checkpointing](https://arxiv.org/abs/1708.06799), [ILC](https://arxiv.org/abs/1611.03429) <!-- * What problem does AD solve? What about their implementation in practice!? fast algols for gpus? -->
 * Non differentiable ops: Stochastic, discrete, unknown... [Rebar](https://arxiv.org/abs/1703.07370), [Concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
-* Differences: temporal, counterfactual, ...?
 * [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
+* Temporal differences [?]()
 
 Projects
 
 * Reproduce [Non-linearities in linear networks exploited by ES](https://blog.openai.com/nonlinear-computation-in-linear-networks/ ) <!-- difference in how you calculate the gradients leads to ... -->
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
-* Formulate gradient estimation with local queries and/or structured estimation. <!-- * What if I already know something about the structure of the function? How can that help me estimate its jacobian? -->
-* Approximate gradients: synthetic gradients, ?
-<!-- 
-* Add AD for non-differentiable ops to tensorflow?!
+* Gradient estimation with;
+    * _local queries_. If the model is very large, would it be easier/efficient to do local pertubations to estimate the gradients?
+    * _structured information_.  If I have some information about the structure of the black box (ie, not a black box...) how can this help me estimate gradients?
+
+<!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
 -->
 
@@ -34,30 +36,30 @@ http://blog.otoro.net/2017/10/29/visual-evolution-strategies/
 
 Questions
 
-* Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation.
+<!-- * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation. -->
+* What is the difference between a tensor decomposition and a tensor network?
 * Reshaping tensors, what is this really doing?
-* What priors do various structures encode? Hankel, conv, ... - locality, symmetry, ?
-* How can the topology of data be build into the topology of a tensor network? Symmetry/structure in the tensor network reflected in the problem?
-<!-- * Relationship to learning? (matrix completion?) [X_train, Y_train], [X_test, ?]. -->
-<!-- * What is happening when you contract over two paths? (marginalisation of two variables?) -->
+* What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, ... - locality, symmetry, ? 
+* What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info?
 <!-- how are they trained? -->
 
 Readings
 
-* Case study: Singular value decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189)
+<!-- * [Introduction](https://arxiv.org/abs/1711.10781) to Tensor decompositions for ML -->
+* Singular value/Tucker decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
-* A graphical language for linalg. [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950), ?
-* ?
+* [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
+* [Review of Tensor Network Contraction Approaches](https://arxiv.org/abs/1708.09213)
 <!-- [Deep multi grids](https://arxiv.org/abs/1711.03825) maybe do in dynamical systems? -->
 <!-- What about a TNs topology? -->
 
 Projects
 
-* Implement and explore the properties of a complex tensor network. Does it have the same represeantional capacity?
+* Show (via proof or experiment) the representational of a complex tensor network.
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
-* Tensor network visualisation tool? 
-
+* Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
+<!-- * Tensor network visualisation tool?  Not sure what this would be... --> 
 <!-- * Differentiable learning of tensor nets? -->
 
 #### (Statistical) learning theory
@@ -147,7 +149,8 @@ Questions
 * Why SGD for NNs? Why stochastic? Why (mini)-batched? Why does it work in practice? <!-- lack of spurious minima, ?, ... -->
 * (How) Could/should past information effect current decisions? (aka momentum? relationship to dynamical/physical systems?!)
 <!-- * As a dynamical system!? huh, it's possible for this to be in a limit cycle! what about bifurications based on hyperparams?) -->
-<!-- * Bias and variance of gradient estimates?? -->
+* Biased and/or variant estimates of a gradient, why does it matter? <!-- This is really a question about what we do with the gradients. Does it belong here?-->
+
 
 Readings
 
