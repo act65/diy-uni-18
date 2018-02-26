@@ -7,18 +7,17 @@ Course in data science, machine learning and related math.
 Questions
 
 * Why do we want gradients/why do we care?
-* What is necessary/sufficient for calculating a gradient? <!-- Some kind of locality/connectedness? -->
+* What is necessary/sufficient for calculating a gradient? <!-- Some kind of locality/connectedness? --> For what reasons can a mathematical operation be non-differentiable? What are the solutions?
 * Is there a more general formuation of differences that unifies; finite, temporal, counterfactual, ...?
-* ?
-
+* What we really want to know is how Y changes with chages in X. A derivative gives us a linear approximation at some X. What alternatives are there?
 
 Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
 * Automatic differentiation: [stability](https://link.springer.com/article/10.1007/s00607-011-0162-z), [checkpointing](https://arxiv.org/abs/1708.06799), [ILC](https://arxiv.org/abs/1611.03429) <!-- * What problem does AD solve? What about their implementation in practice!? fast algols for gpus? -->
-* Non differentiable ops: Stochastic, discrete, unknown... [Rebar](https://arxiv.org/abs/1703.07370), [Concrete distribution](https://arxiv.org/abs/1611.00712), [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123)
+* Non differentiable ops: [Rebar](https://arxiv.org/abs/1703.07370), [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123), [Mixed convex-combinatorial optimisation](https://arxiv.org/abs/1710.11573)
 * [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
-* Temporal differences [?]()
+* Temporal differences: [True online TD](https://arxiv.org/abs/1512.04087), [Gradient TD](http://proceedings.mlr.press/v24/silver12a/silver12a.pdf)
 
 Projects
 
@@ -27,7 +26,7 @@ Projects
 * Gradient estimation with;
     * _local queries_. If the model is very large, would it be easier/efficient to do local pertubations to estimate the gradients?
     * _structured information_.  If I have some information about the structure of the black box (ie, not a black box...) how can this help me estimate gradients?
-
+<!-- What about estimation of the hessian or higher orders? -->
 <!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
 -->
@@ -36,22 +35,18 @@ http://blog.otoro.net/2017/10/29/visual-evolution-strategies/
 
 Questions
 
-<!-- * Rank of high order tensors. Various types of decomposition. Solving for those decompositions. Notation. -->
+* What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info?
 * What is the difference between a tensor decomposition and a tensor network?
 * Reshaping tensors, what is this really doing?
-* What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, ... - locality, symmetry, ? 
-* What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info?
+* What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, Toeplitz, QP, ... - locality, symmetry, ?
 <!-- how are they trained? -->
 
 Readings
 
-<!-- * [Introduction](https://arxiv.org/abs/1711.10781) to Tensor decompositions for ML -->
-* Singular value/Tucker decomposition(s) - [HOSVD](), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115)
+* Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
 * [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
 * [Review of Tensor Network Contraction Approaches](https://arxiv.org/abs/1708.09213)
-<!-- [Deep multi grids](https://arxiv.org/abs/1711.03825) maybe do in dynamical systems? -->
-<!-- What about a TNs topology? -->
 
 Projects
 
@@ -59,36 +54,33 @@ Projects
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 * Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
-<!-- * Tensor network visualisation tool?  Not sure what this would be... --> 
-<!-- * Differentiable learning of tensor nets? -->
 
 #### (Statistical) learning theory
 
 <!-- Fitting the data is not enought, needs to generalise! -->
 Questions
 
-* Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility-->
 * What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What would a theory of learning/generalisation look like? What would it tell us?
-* WHat does it mean to generalise? WHat is the different between visual/learned generalisaation and symbolic generalisation?
+* What does it mean to generalise? What is the difference between visual/learned generalisaation and symbolic generalisation?
+* Define Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility. formulate some measures and test them -->
+
 
 Readings
 
-* Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), PAC learning framework
-* Capacity and simplicity
-* Measuring complexity of a given hypothesis
+* Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), [PAC learning framework](http://web.cs.iastate.edu/~honavar/pac.pdf)
+* Capacity and simplicity. Measuring complexity of a given hypothesis
+* Building complex functions from simple ones, aka boosting: [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
 * Generalisation in NNs. [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468), [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667) <!-- reproduce experiments from-->
 
 Projects
 
-* Training in a non-IID setting. Correlated mnist, you recieve the digits in numerical order.
-* The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy.
-* Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?!)
-* Iteratively construct a net<!-- saddle splitting network? -->
-<!-- Validate a measure of complexity and add it to tensorflow -->
-<!-- Searching through hypothesis space, ... -->
+* Training in a non-IID setting. Solution?
+* Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?! a linear network? can it do this? a property of the data!?)
+* Iteratively construct a net. What does adding more flexibility do when at a local minima? <!-- saddle splitting network? -->
+* Find/design an example of something a NN cant learn. Explain why.
+<!-- * Margin based classification. The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy. -->
 <!-- Flat minima -->
-<!-- Find an example of something a NN cant learn -->
 
 ## Semester 2
 
@@ -98,32 +90,45 @@ Questions
 
 * What conditions make assigning credit hard?
 * Can credit assignment be framed in a communication setting?
-* ?
-* ?
+* What if the network of interactions is too complex to accurately assign credit? In what way do we mean complex here?
+* Is credit assignment necessary or sufficient for learning? (hebbian clearning does seem to clearly assign credit but it learns?)
 <!-- To assign credit, you need the ops to be connected/locally linear? No, that is just for propagating via chain rule. -->
 <!-- must be connected in some sense? Ability to communicate feedback. -->
 
 Readings
 
 * Backprop: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
-* Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?
+* Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?, shattered grads?, 
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
+* Alternatives: real-time recurrent learning (RTRL)
+
+Projects
+
+<!-- What about the complexity of propagating higher order info - second order? -->
+* Implement efficient graph based reverse AD (not sure about this one...)
+* Show that there exist pathological problems where learning long-term dependencies is hard. Explore the relationship  between what makes long-term dependencies hard and entropy. (where am I going to get some data!?)
+* Approximate credit assignment (for greater efficiency?)
+* Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
+
+#### Structured/statistical-relation learning
+
+Questions
+
+* How can graphs be encoded? list the different ways? does structure imply a graph?
+
+Readings
+
+* (Graph) signal processing
+* Knlowedge bases (link prediction)
+* Message passing
 * ?
 
 Projects
 
-<!-- * Implement efficient graph based reverse AD (not sure about this one...) -->
-* Show that there exist pathological problems where learning long-term dependencies is hard. Explore the relationship  between what makes long-term dependencies hard and entropy. (where am I going to get some data!?)
-* Approximate credit assignment (for greater efficiency?)
-* ?
-<!-- * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks. -->
-
-#### Structured learning/statistical relation learning
-
-* (Graph) signal processing
-* Sparse representations: The fourier transformation
 * The laplacian
-* Graph embeddings for ML
+* Graph embeddings for ML/NLP
+* ?
+<!-- Matrix-vector multiplication as graph convolution. -->
 
 #### Representation/approximation theory
 
@@ -167,7 +172,7 @@ Projects
 <!-- * Alternatives to SGD. ES? ADMM? CG? Newtons? Fisher?  ... -->
 * Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
 * Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
-* Model based optimisation rather than black box optimisation!?
+* Model based optimisation rather than black box optimisation!?!
 * Regularisation via early stopping
 <!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
@@ -186,13 +191,16 @@ Projects
 
 Questions
 
+* Is compression the same thing as quantisation and formalisation? If not, how is it different?
 * 
 
 Readings
 
 * A theory of fun, beauty, ... Schmidhuber 2009
 * Hand designed compression of ?! (images/audio/text?)
-
+<!-- * Automata theory -->
+* AIT?
+* Compression limits?
 
 Projects
 
@@ -200,9 +208,8 @@ Projects
   * Extract/distill an automata from a (recurrent) neural network. 
   * Can a RNN learn a push down or turing machine ??
 * Quantisation, distillation, ...? [TernGrad]()
-* Adaptive/online compression/coding
-
-
+* Adaptive/online compression/coding (predictive coding?)
+* ?
 
 ## Project
 
