@@ -10,8 +10,10 @@ Course in physics (with a view towards computation).
 
 #### Condensed matter, phases, complexity
 
+* Superconductivity
 
 #### Electrodynamics
+
 
 
 ## Semester 2
@@ -26,6 +28,7 @@ Course in physics (with a view towards computation).
 #### Particle physics
 
 * Strong and weak forces
+* ?
 
 
 #### Relativity?

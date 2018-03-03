@@ -2,7 +2,9 @@ Course in data science, machine learning and related math.
 
 ## Semester 1
 
-#### Gradient computation
+#### Gradient estimation
+
+<!-- > _How can you estimate how a function will change?_ -->
 
 Questions
 
@@ -25,22 +27,21 @@ Projects
 * Implement [doubly recursive AD](http://dankalman.net/preprints/mmgautodiff.pdf)
 * Gradient estimation with;
     * _local queries_. If the model is very large, would it be easier/efficient to do local pertubations to estimate the gradients?
-    * _structured information_.  If I have some information about the structure of the black box (ie, not a black box...) how can this help me estimate gradients? <!-- If I gave you the jacobian of a CNN could you tell me whether it is invariant to translations/rotations? -->
-<!-- * A derivative of a function as a linear model? Of that function. So when we do black box optimisation we do it by modeling the function--> 
+    * _structured information_.  If I have some information about the structure of a function (aka black box) we are taking the derivatve of (ie, not a black box...) how can this help me estimate gradients? <!-- If I gave you the jacobian of a CNN could you tell me whether it is invariant to translations/rotations? -->
 <!-- What about estimation of the hessian or higher orders? -->
 <!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
 -->
 
-#### Tensor networks
+#### Tensors
 
 Questions
 
 * What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info?
-* What is the difference between a tensor decomposition and a tensor network?
+<!-- tensors that encode logic, dual algebra, -->
+* Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
 * Reshaping tensors, what is this really doing?
 * What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, Toeplitz, QP, ... - locality, symmetry, ?
-<!-- how are they trained? -->
 
 Readings
 
@@ -51,36 +52,37 @@ Readings
 
 Projects
 
-* Show (via proof or experiment) the representational of a complex tensor network.
+* Show (via proof and/or experiment) the representational capacity of a complex tensor network.
 * Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
-* Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
+* Write a wikipedia page (as none seems to exist), untill [now](https://en.wikipedia.org/wiki/Draft:Tensor_networks).
 
 #### (Statistical) learning theory
 
-<!-- Fitting the data is not enought, needs to generalise! -->
+<!-- Fitting the data is not enough, needs to generalise! -->
 Questions
 
 * What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What would a theory of learning/generalisation look like? What would it tell us?
-* What does it mean to generalise? What is the difference between visual/learned generalisaation and symbolic generalisation?
+* What does it mean to generalise? What is the difference between visual/learned generalisation and symbolic generalisation?
 * Define Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility. formulate some measures and test them -->
 
 
 Readings
 
 * Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), [PAC learning framework](http://web.cs.iastate.edu/~honavar/pac.pdf)
-* [Generalization in Machine Learning via Analytical Learning Theory](https://arxiv.org/abs/1802.07426)
-* Capacity and simplicity. Measuring complexity of a given hypothesis
-* Building complex functions from simple ones, aka boosting: [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
-* Generalisation in NNs. [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468), [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667) <!-- reproduce experiments from-->
+<!-- * Capacity and simplicity. Measuring complexity of a given hypothesis -->
+* Building complex functions from simple ones (aka boosting?): [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
+* Generalisation in NNs: [Analytical Learning Theory](https://arxiv.org/abs/1802.07426)
+* ?
+<!-- VC and rachemader?-->
 
 Projects
 
-* Training in a non-IID setting. Solution?
+* Training in a non-IID setting. Solution? <!-- (how do you even evaluate in non-IID settings?) -->
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?! a linear network? can it do this? a property of the data!?)
 * Iteratively construct a net. What does adding more flexibility do when at a local minima? <!-- saddle splitting network? -->
-* Find/design an example of something a NN cant learn. Explain why.
+* Find/design an example of where it is hard/impossible to generalise. Explain why.
 <!-- * Margin based classification. The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy. -->
 <!-- Flat minima -->
 
@@ -102,7 +104,7 @@ Readings
 * Backprop: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
 * Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?, shattered grads?, 
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
-* Alternatives: real-time recurrent learning (RTRL)
+* Alternatives: real-time recurrent learning (RTRL), temporal difference propagation, synthetic gradients
 
 Projects
 
@@ -112,7 +114,7 @@ Projects
 * Approximate credit assignment (for greater efficiency?)
 * Implement a credit assignment algorithm in a non-cts setting. For example; rewards in economies or citation networks.
 
-#### Structured/statistical-relation learning
+#### Structured learning
 
 Questions
 
@@ -120,16 +122,15 @@ Questions
 
 Readings
 
-* (Graph) signal processing
+* [Graph signal processing](https://arxiv.org/abs/1211.0053)
 * Knlowedge bases (link prediction)
-* Message passing
-* ?
+* ??
 
 Projects
 
 * The laplacian
 * Graph embeddings for ML/NLP
-* ?
+* Message passing NNs
 <!-- Matrix-vector multiplication as graph convolution. -->
 
 #### Representation/approximation theory
@@ -139,7 +140,7 @@ Projects
 Readings
 
 * Curve fitting
-* Deep vs wide; [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/)
+* Neural networks. Deep vs wide; [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/), [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468)
 * Alternative representations?
 * Factorisation machines
 * [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
@@ -169,6 +170,7 @@ Readings
 * Online optimisation: Mirror descent,  and [Potential-Function Proofs](https://arxiv.org/abs/1712.04581)
 * Convex optimisation: Lagrangian duals, [Leveling with Lagrange](), ? (constrained optimisation?!)
 * Combinatorial optimisation: Satisfiability, (related to saticficing?)
+* [High-dimensional dynamics](https://arxiv.org/abs/1710.03667)
 <!-- * Momentum for non-convex optimisation: [ADAM]() and its update [AMSGRAD]() (a lack of theory here, or am I just unaware?) -->
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
@@ -180,12 +182,14 @@ Projects
 * Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
 * Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
 * Model based optimisation rather than black box optimisation!?!
+<!-- * A derivative of a function as a linear model? Of that function. So when we do black box optimisation we do it by modeling the function--> 
 * Regularisation via early stopping
 <!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
 
 #### Probabilistic inference
 
+* Bayes rule
 * PGMs
 * Variational inference
 * Causal inference
@@ -199,13 +203,15 @@ Projects
 Questions
 
 * Is compression the same thing as quantisation and formalisation? If not, how is it different?
+* Relationship between sketching, quantising, distilling, ...
+* How do compression and prediction relate?
 * 
 
 Readings
 
-* A theory of fun, beauty, ... Schmidhuber 2009
+* [A theory of fun, beauty, ...](Schmidhuber 2009), 
 * Hand designed compression of ?! (images/audio/text?)
-<!-- * Automata theory -->
+<!-- * Automata theory? -->
 * AIT?
 * Compression limits?
 
@@ -216,13 +222,10 @@ Projects
   * Can a RNN learn a push down or turing machine ??
 * Quantisation, distillation, ...? [TernGrad]()
 * Adaptive/online compression/coding (predictive coding?)
-* ?
+* A flexible/variable 
+* Gradient w.r.t compression!?
 
-## Project
 
-> Automated science and math.
-
-Math and science have become too big for individuals. We find it hard to keep up and to cram the relevant knowledge into our small heads. We need better tools to continue push the boundaries.
 
 <!-- wishlist;
 - online algols -- tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!?

@@ -8,11 +8,10 @@ Course in pure and applied math.
 * Moonshine
 * Various algebras (duals, Clifford algebras, ...? Symplectic?)
 * Review of groups, fields, rings, ...
-* ?
 
 #### Signal processing and sparsity
 
-* Fourier, wavelets, ... spectra
+* Fourier, wavelets, graphlets, ... spectra
 * Sparsity
 *
 
@@ -28,6 +27,8 @@ Course in pure and applied math.
 
 * Various types; Hyper, hierarchical, ...?
 * Matriods
+* Graphons
+* ?
 
 #### Dynamical systems and stability
 
@@ -38,7 +39,7 @@ Course in pure and applied math.
 * Signularity theory?
 * Chaos
 
-#### Symmetry
+#### ?
 
 * ?
 
@@ -56,13 +57,12 @@ Course in pure and applied math.
 * Kolmogorov complexity
 * ?
 
-#### ?
+#### Algebraic/topological statistics
 
-
+* ?
 
 <!-- Withlist/possibilities
 - stats
-- game theory
 - numerical analysis
 - functional analysis
 - topology?

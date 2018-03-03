@@ -2,7 +2,6 @@ Course in computer science.
 
 ## Semester 1
 
-
 #### Programming languages
 
 * Functional
@@ -14,6 +13,22 @@ Projects
 
 * Write X in Haskell, Rust, Go, js? and Scala.
 * 
+
+#### Architecture
+
+* Neuromorphic
+* From NAND to Tetris
+* Y86
+* ?
+
+#### Searching and sorting
+
+
+* Tree search
+* Data structures (or have a seperate course?)
+
+
+## Semester 2
 
 #### Recursion
 
@@ -29,22 +44,9 @@ Projects
 
 * ?
 
-## Semester 2
 
 
-#### Searching and sorting
-
-
-* Tree search
-* Data structures (or have a seperate course?)
-
-
-#### Architecture
-
-* Neuromorphic
-* From NAND to Tetris
-* Y86
-* ?
+#### ??
 
 ## Semester 3
 
