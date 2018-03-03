@@ -69,6 +69,7 @@ Questions
 Readings
 
 * Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), [PAC learning framework](http://web.cs.iastate.edu/~honavar/pac.pdf)
+* [Generalization in Machine Learning via Analytical Learning Theory](https://arxiv.org/abs/1802.07426)
 * Capacity and simplicity. Measuring complexity of a given hypothesis
 * Building complex functions from simple ones, aka boosting: [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
 * Generalisation in NNs. [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468), [High-dimensional dynamics of generalization error](https://arxiv.org/abs/1710.03667) <!-- reproduce experiments from-->
@@ -137,10 +138,15 @@ Projects
 Readings
 
 * Curve fitting
-* Deep vs wide
+* Deep vs wide; [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/)
 * Alternative representations?
 * Factorisation machines
 * [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
+
+Projects
+
+* Hierarchical taylor representation
+* ?
 
 ## Semester 3
 
