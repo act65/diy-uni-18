@@ -26,6 +26,7 @@ Projects
 * Gradient estimation with;
     * _local queries_. If the model is very large, would it be easier/efficient to do local pertubations to estimate the gradients?
     * _structured information_.  If I have some information about the structure of the black box (ie, not a black box...) how can this help me estimate gradients? <!-- If I gave you the jacobian of a CNN could you tell me whether it is invariant to translations/rotations? -->
+<!-- * A derivative of a function as a linear model? Of that function. So when we do black box optimisation we do it by modeling the function--> 
 <!-- What about estimation of the hessian or higher orders? -->
 <!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
