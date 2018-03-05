@@ -32,6 +32,7 @@ Projects
 <!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
 http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
 -->
+* Aggregation for noisy estimates?
 
 #### Tensors
 
