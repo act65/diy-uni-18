@@ -45,7 +45,7 @@ Questions
 
 Readings
 
-* Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115)
+* Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115), [of Orthogonally Decomposable Tensors](https://arxiv.org/abs/1603.09004)
 * [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
 * [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
 * [Review of Tensor Network Contraction Approaches](https://arxiv.org/abs/1708.09213)
