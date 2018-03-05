@@ -37,8 +37,7 @@ http://blog.otoro.net/2017/10/29/visual-evolution-strategies/
 
 Questions
 
-* What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info?
-<!-- tensors that encode logic, dual algebra, -->
+* What is a tensor? Rank, dimension, ...? Want some intuition. How do/can they encode real world info? <!-- tensors that encode logic, dual algebra, -->
 * Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
 * Reshaping tensors, what is this really doing?
 * What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, Toeplitz, QP, ... - locality, symmetry, ?
@@ -74,8 +73,7 @@ Readings
 <!-- * Capacity and simplicity. Measuring complexity of a given hypothesis -->
 * Building complex functions from simple ones (aka boosting?): [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
 * Generalisation in NNs: [Analytical Learning Theory](https://arxiv.org/abs/1802.07426)
-* ?
-<!-- VC and rachemader?-->
+* [The Space of Transferable Adversarial Examples](https://arxiv.org/abs/1704.03453)
 
 Projects
 
@@ -123,32 +121,35 @@ Questions
 Readings
 
 * [Graph signal processing](https://arxiv.org/abs/1211.0053)
-* Knlowedge bases (link prediction)
-* ??
+* Knlowedge bases (link prediction and factorisation -- find common patterns of connectivity and abstract!? What about disambiguation? When things are linked wit similar edges, but they really arent the same thing!?)
+* [Knowledge Graph Completion via Complex Tensor Factorization](https://arxiv.org/abs/1702.06879)
 
 Projects
 
-* The laplacian
+* Understand and visualise the laplacian (in cts and discrete)
 * Graph embeddings for ML/NLP
-* Message passing NNs
+* Message passing NNs for ???
 <!-- Matrix-vector multiplication as graph convolution. -->
 
 #### Representation/approximation theory
 
 * Neural networks as a tensor decomposition?
+* Representation to match structure in the problem.
+* Distributed representations, 
 
 Readings
 
-* Curve fitting
+* Approximation theory []()
 * Neural networks. Deep vs wide; [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/), [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468)
-* Alternative representations?
-* Factorisation machines
-* [Boosting dilated conv-nets with tensor decompositions](https://openreview.net/forum?id=S1JHhv6TW)
+* VC and Rachmader
+* ?
 
 Projects
 
 * Hierarchical taylor representation
-* ?
+* Splines
+* Second order and Factorisation machines
+* Holographic reduce representations?
 
 ## Semester 3
 
@@ -193,7 +194,17 @@ Projects
 * PGMs
 * Variational inference
 * Causal inference
+
+Readings
+
 * https://ermongroup.github.io/cs228-notes/
+* [Learning Polynomials with Neural Networks](http://theory.stanford.edu/~valiant/papers/andoni14.pdf)
+
+Projects
+
+* Moments, correlation, and their relation to gradients? Contractive, ...
+* Learn a PGM
+* ?
 
 #### Compression 
 

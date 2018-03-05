@@ -39,9 +39,9 @@ Course in pure and applied math.
 * Signularity theory?
 * Chaos
 
-#### ?
+#### Optimisation
 
-* ?
+* The (higher?) math of optimisation
 
 ## Semester 3
 

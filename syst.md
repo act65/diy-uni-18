@@ -23,4 +23,4 @@ A course on complex adaptive systems.
 
 ## Semester 3
 
-?
+#### Optimisation (another one...)
