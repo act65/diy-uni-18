@@ -19,7 +19,7 @@ Readings
 * Automatic differentiation: [stability](https://link.springer.com/article/10.1007/s00607-011-0162-z), [checkpointing](https://arxiv.org/abs/1708.06799), [ILC](https://arxiv.org/abs/1611.03429) <!-- * What problem does AD solve? What about their implementation in practice!? fast algols for gpus? -->
 * Non differentiable ops: [Rebar](https://arxiv.org/abs/1703.07370), [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123), [Mixed convex-combinatorial optimisation](https://arxiv.org/abs/1710.11573)
 * [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
-* Temporal differences: [True online TD](https://arxiv.org/abs/1512.04087), [Gradient TD](http://proceedings.mlr.press/v24/silver12a/silver12a.pdf)
+* [True online TD](https://arxiv.org/abs/1512.04087)
 
 Projects
 
@@ -46,33 +46,30 @@ Questions
 Readings
 
 * Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115), [of Orthogonally Decomposable Tensors](https://arxiv.org/abs/1603.09004)
-* [Matrix multiplication algorithms from group orbits](https://arxiv.org/abs/1612.01527)
+* Contraction of TNs- [Review of Approaches](https://arxiv.org/abs/1708.09213), [from group orbits](https://arxiv.org/abs/1612.01527), [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092), [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
-* [Review of Tensor Network Contraction Approaches](https://arxiv.org/abs/1708.09213)
+* Optimisation of tensornets?
 
 Projects
 
 * Show (via proof and/or experiment) the representational capacity of a complex tensor network.
-* Implement [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092) / [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
+* Implement Strassen's algol.
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 * Write a wikipedia page (as none seems to exist), untill [now](https://en.wikipedia.org/wiki/Draft:Tensor_networks).
 
 #### (Statistical) learning theory
 
-<!-- Fitting the data is not enough, needs to generalise! -->
 Questions
 
-* What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What would a theory of learning/generalisation look like? What would it tell us?
+* What is necessary/sufficient for X to be learnable (aka constructed?)? What is necesary/sufficient to prove that humans are learnable via natural selection?
 * What does it mean to generalise? What is the difference between visual/learned generalisation and symbolic generalisation?
-* Define Occams razor! Flexibility vs complexity. <!-- parameterised relus versus vanilla relu. same represational capacity/complexity, different learnability/flexibility. formulate some measures and test them -->
-
+* Define Occams razor! Flexibility vs complexity.
 
 Readings
 
 * Classics: [An Overview of Statistical Learning Theory](http://www.mit.edu/~6.454/www_spring_2001/emin/slt.pdf), [A theory of the learnable](https://people.mpi-inf.mpg.de/~mehlhorn/SeminarEvolvability/ValiantLearnable.pdf), [PAC learning framework](http://web.cs.iastate.edu/~honavar/pac.pdf)
-<!-- * Capacity and simplicity. Measuring complexity of a given hypothesis -->
-* Building complex functions from simple ones (aka boosting?): [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
+* [Memory, Communication, and Statistical Queries](http://theory.stanford.edu/~valiant/papers/commMemDraft.pdf)
 * Generalisation in NNs: [Analytical Learning Theory](https://arxiv.org/abs/1802.07426)
 * [The Space of Transferable Adversarial Examples](https://arxiv.org/abs/1704.03453)
 
@@ -80,10 +77,11 @@ Projects
 
 * Training in a non-IID setting. Solution? <!-- (how do you even evaluate in non-IID settings?) -->
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?! a linear network? can it do this? a property of the data!?)
-* Iteratively construct a net. What does adding more flexibility do when at a local minima? <!-- saddle splitting network? -->
 * Find/design an example of where it is hard/impossible to generalise. Explain why.
-<!-- * Margin based classification. The patterns are a property of the data!! Visualise them... If we pick some decision boundaries on test data and overlay the test data we should be able to see where the boundaries wont generalise? Explore how margin effects accuracy. -->
+* Design and explore metrics for data complexity. 
 <!-- Flat minima -->
+<!-- Rewrite/annote proof of PCA p-np -->
+<!-- -->
 
 ## Semester 2
 
@@ -132,25 +130,27 @@ Projects
 * Message passing NNs for ???
 <!-- Matrix-vector multiplication as graph convolution. -->
 
-#### Representation/approximation theory
+#### (Approximation) learning theory
 
 * Neural networks as a tensor decomposition?
 * Representation to match structure in the problem.
 * Distributed representations, 
+<!-- * Capacity and simplicity. Measuring complexity of a given hypothesis -->
 
 Readings
 
 * Approximation theory []()
-* Neural networks. Deep vs wide; [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/), [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468)
-* VC and Rachmader
-* ?
+* The perceptron, universality of RNNs, ...
+* Neural networks. Deep vs wide, [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/), [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468)
+* Building complex functions from simple ones (aka boosting?): [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
 
 Projects
 
 * Hierarchical taylor representation
 * Splines
 * Second order and Factorisation machines
-* Holographic reduce representations?
+* Holographic reduced representations?
+* Iteratively construct a net. What does adding more flexibility do when at a local minima? 
 
 ## Semester 3
 
