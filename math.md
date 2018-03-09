@@ -68,6 +68,8 @@ Course in pure and applied math.
 - topology?
 - calculus - discrete, functional, fractional, ...
 - complex number, holomorphic functions, 
+- representation theory
+- ?
 
 - non-linear type systems
 - ?

@@ -42,20 +42,22 @@ Questions
 * Can the topology of data be build into the topology of a tensor network? Can the symmetry/structure in the tensor network be designed to match structure in the problem? <!-- lots of pretty pics of various network topologies? but also measures of their properties! -->
 * Reshaping tensors, what is this really doing?
 * What priors do various factorsations/decompositions/structures encode? Hankel, conv, CP, Cholesky, Toeplitz, QP, ... - locality, symmetry, ?
+<!-- Invariant symmetries of linear operations - matmul/contraction, reshape, ...-->
 
 Readings
 
 * Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115), [of Orthogonally Decomposable Tensors](https://arxiv.org/abs/1603.09004)
-* Contraction of TNs- [Review of Approaches](https://arxiv.org/abs/1708.09213), [from group orbits](https://arxiv.org/abs/1612.01527), [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092), [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
+* Contraction of TNs- [Review of Approaches](https://arxiv.org/abs/1708.09213), [from group orbits](https://arxiv.org/abs/1612.01527), [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
 * [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
-* Optimisation of tensornets?
+* Optimisation of tensornets.
 
 Projects
 
 * Show (via proof and/or experiment) the representational capacity of a complex tensor network.
-* Implement Strassen's algol.
+* Implement Strassen's algol - [Designing Strassen's algorithm](https://arxiv.org/abs/1708.09398)
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 * Write a wikipedia page (as none seems to exist), untill [now](https://en.wikipedia.org/wiki/Draft:Tensor_networks).
+* Explore non-linear tensor-networks.
 
 #### (Statistical) learning theory
 
@@ -75,10 +77,10 @@ Readings
 
 Projects
 
+* Design and explore metrics for data complexity on various Kaggle datasets.
 * Training in a non-IID setting. Solution? <!-- (how do you even evaluate in non-IID settings?) -->
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?! a linear network? can it do this? a property of the data!?)
 * Find/design an example of where it is hard/impossible to generalise. Explain why.
-* Design and explore metrics for data complexity. 
 <!-- Flat minima -->
 <!-- Rewrite/annote proof of PCA p-np -->
 <!-- -->
@@ -140,9 +142,10 @@ Projects
 Readings
 
 * Approximation theory []()
-* The perceptron, universality of RNNs, ...
+* The perceptron, universality of RNNs, ... [RNNs](https://arxiv.org/pdf/1711.00811.pdf)
 * Neural networks. Deep vs wide, [Implicit Acceleration by Overparameterization](https://arxiv.org/abs/1802.06509/), [Generalization in Deep Learning](https://arxiv.org/abs/1710.05468)
 * Building complex functions from simple ones (aka boosting?): [Weak learners](http://www.cs.princeton.edu/~schapire/papers/strengthofweak.pdf), [AdaBoost](https://www.cis.upenn.edu/~mkearns/teaching/COLT/adaboost.pdf), [as gradient descent](https://papers.nips.cc/paper/1766-boosting-algorithms-as-gradient-descent)
+
 
 Projects
 
