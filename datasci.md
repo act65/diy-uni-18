@@ -1,8 +1,8 @@
 Course in data science, machine learning and related math.
 
-## Semester 1
+# Semester 1
 
-#### Gradient estimation
+### Gradient estimation
 
 <!-- > _How can you estimate how a function will change?_ -->
 
@@ -17,9 +17,15 @@ Readings
 
 <!-- Derivation for typical SGD. Want \del L but sample from dataset to estimate the true grad -->
 * Automatic differentiation: [stability](https://link.springer.com/article/10.1007/s00607-011-0162-z), [checkpointing](https://arxiv.org/abs/1708.06799), [ILC](https://arxiv.org/abs/1611.03429) <!-- * What problem does AD solve? What about their implementation in practice!? fast algols for gpus? -->
-* Non differentiable ops: [Rebar](https://arxiv.org/abs/1703.07370), [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123), [Mixed convex-combinatorial optimisation](https://arxiv.org/abs/1710.11573)
-* [Jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
+* Non differentiable ops: [DICE](https://arxiv.org/abs/1802.05098), [Backpropagation through the Void](https://arxiv.org/abs/1711.00123), [Black box bprop via jacobian sensing](https://papers.nips.cc/paper/7230-on-blackbox-backpropagation-and-jacobian-sensing)
 * [True online TD](https://arxiv.org/abs/1512.04087)
+* ?
+
+<!-- 
+* synthetic grads??? 
+* kronecker factored... 
+* ?
+-->
 
 Projects
 
@@ -34,7 +40,7 @@ http://blog.otoro.net/2017/10/29/visual-evolution-strategies/
 -->
 * Aggregation for noisy estimates?
 
-#### Tensors
+### Tensors
 
 Questions
 
@@ -47,9 +53,11 @@ Questions
 Readings
 
 * Singular value decomposition(s) - [HOSVD](https://lirias.kuleuven.be/bitstream/123456789/72517/1/94-31.pdf), [HSVD](http://epubs.siam.org/doi/abs/10.1137/090764189), [the geometry of HT](https://www.sciencedirect.com/science/article/pii/S0024379513002115), [of Orthogonally Decomposable Tensors](https://arxiv.org/abs/1603.09004)
-* Contraction of TNs- [Review of Approaches](https://arxiv.org/abs/1708.09213), [from group orbits](https://arxiv.org/abs/1612.01527), [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
+* Contraction of TNs- [Review of Approaches](https://arxiv.org/abs/1708.09213), [Strassen's Algorithm for Tensor Contraction](https://arxiv.org/abs/1704.03092)
 * [A graphical calculus for open quantum systems](https://arxiv.org/abs/1111.6950)
-* Optimisation of tensornets.
+* ?
+<!-- * Optimisation of tensornets. -->
+<!--  [from group orbits](https://arxiv.org/abs/1612.01527), -->
 
 Projects
 
@@ -58,8 +66,9 @@ Projects
 * Benchmark tensor operation compilers - [tensor-comprehensions](https://research.fb.com/announcing-tensor-comprehensions/), [simit](http://simit-lang.org/tog16), [taco](http://tensor-compiler.org/)
 * Write a wikipedia page (as none seems to exist), untill [now](https://en.wikipedia.org/wiki/Draft:Tensor_networks).
 * Explore non-linear tensor-networks.
+<!-- complexity of various SVD algols?! -->
 
-#### (Statistical) learning theory
+### (Statistical) learning theory
 
 Questions
 
@@ -103,7 +112,7 @@ Readings
 * Backprop: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
 * Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?, shattered grads?, 
 * Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
-* Alternatives: real-time recurrent learning (RTRL), temporal difference propagation, synthetic gradients
+* [Mixed convex-combinatorial optimisation](https://arxiv.org/abs/1710.11573), [target propagation](), [ADMM]()
 
 Projects
 
@@ -247,4 +256,5 @@ Projects
 - another on optimisation...
 - transfer, active, meta, .. learning
 - Topological data analysis, clustering, connectedness, 
+- signal processing?
 -->

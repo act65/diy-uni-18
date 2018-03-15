@@ -46,12 +46,14 @@ Projects
 
 
 
-#### ??
+#### Parallelism
+
+?
 
 ## Semester 3
 
 
-#### Assembly
+#### Assembly?
 
 
 
@@ -61,6 +63,9 @@ Projects
 #### Computational complexity
 
 
-## Project
-
-??
+<!-- 
+- Fast numerical computations
+- Memory formats
+- Predictive caching
+- ?
+-->
