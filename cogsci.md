@@ -8,20 +8,17 @@ Course in cognitive science, with a focus on computational neuroscience, reasoni
 * Evolution of languages
 * Grammaticalization, Creoleization, ?
 
-#### Computational neuroscience: Reward systems and learning
+#### Computational neuroscience: Reward systems and addiction
 
 * Successor representation and spatial memory
 * ?
 * ?
 
+#### Epigenetics of memory and learning
 
-#### ?
+* ...
 
 ## Semester 2
-
-
-#### Computational neuroscience: ?
-
 
 #### Natural language processing
 
@@ -40,24 +37,19 @@ Projects
 #### Developmental neuroscience
 
 * Growing a brain
+* Experiments with cerebral organiods? Preferable a way to automate this!?
+
+#### ?
+
 * 
 
 
 ## Semester 3
 
+#### Computational neuroscience: Language and reasoning
+
+* Biologically plausible models of language acquisition.
 
 #### Evolution of the brain
 
 * The environmental pressures that acted as selective pressures on the developing brain.
-
-#### Epigenetics of memory and learning
-
-* ...
-
-## Project
-
-Biologically plausible models of language acquisition.
-
-<!-- 
-Experiments with cerebral organiods. Preferable a way to automate this!?
--->
