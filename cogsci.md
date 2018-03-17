@@ -8,8 +8,9 @@ Course in cognitive science, with a focus on computational approaches to neurosc
 * Evolution of languages
 * Grammaticalization, Creoleization, ?
 
-#### Computational neuroscience: Reward systems and addiction
+#### Computational neuroscience: Reward systems 
 
+* Addiction
 * Successor representation and spatial memory
 * ?
 * ?
@@ -33,15 +34,11 @@ Projects
 
 * ?
 
+#### Computational neuroscience: Memory
 
-#### Developmental neuroscience
-
-* Growing a brain
-* Experiments with cerebral organiods? Preferable a way to automate this!?
+* Working memory
 
 #### ?
-
-* 
 
 
 ## Semester 3
@@ -53,3 +50,13 @@ Projects
 #### Evolution of the brain
 
 * The environmental pressures that acted as selective pressures on the developing brain.
+
+#### Developmental neuroscience
+
+* Growing a brain
+* Experiments with cerebral organiods? Preferable a way to automate this!?
+
+<!--
+- imaging
+- 
+-->
