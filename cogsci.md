@@ -1,4 +1,4 @@
-Course in cognitive science, with a focus on computational neuroscience, reasoning and linguistics.
+Course in cognitive science, with a focus on computational approaches to neuroscience, reward, reasoning and language.
 
 ## Semester 1
 
