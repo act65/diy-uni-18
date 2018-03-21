@@ -56,5 +56,6 @@ Course in physics (with a view towards computation).
 - mass
 - fusion
 - uncertainty principle
-- ?
+* Legendre transform
+
 -->

@@ -19,8 +19,20 @@ A course on complex adaptive systems.
 
 #### Exploration
 
+* Curiosity
+* Creativity
+* ?
+
 #### Signalling
+
+* Collaboration!?
 
 ## Semester 3
 
 #### Optimisation (another one...)
+
+<!--
+- cryptography
+- ?
+
+-->

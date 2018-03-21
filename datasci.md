@@ -86,7 +86,7 @@ Readings
 
 Projects
 
-* Design and explore metrics for data complexity on various Kaggle datasets.
+* Empirical learing theory. Design and explore metrics for data complexity on various Kaggle datasets.
 * Training in a non-IID setting. Solution? <!-- (how do you even evaluate in non-IID settings?) -->
 * Generalisation to different inputs. MINST - 1 vs 2 vs 3, ... (most autoencoders can over-generalise?! a linear network? can it do this? a property of the data!?)
 * Find/design an example of where it is hard/impossible to generalise. Explain why.
@@ -133,6 +133,7 @@ Readings
 * [Graph signal processing](https://arxiv.org/abs/1211.0053)
 * Knlowedge bases (link prediction and factorisation -- find common patterns of connectivity and abstract!? What about disambiguation? When things are linked wit similar edges, but they really arent the same thing!?)
 * [Knowledge Graph Completion via Complex Tensor Factorization](https://arxiv.org/abs/1702.06879)
+* [CayleyNets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters]()
 
 Projects
 
@@ -189,6 +190,7 @@ Readings
 <!--* Implicit bias. Neyshabur? -->
 <!-- * Time and memory complexity -->
 <!-- * Natural gradient descent (using the fisher) -->
+<!-- Derivative-Free Optimization via Classification -->
 
 Projects
 
@@ -212,6 +214,7 @@ Readings
 
 * https://ermongroup.github.io/cs228-notes/
 * [Learning Polynomials with Neural Networks](http://theory.stanford.edu/~valiant/papers/andoni14.pdf)
+* Causal Compression
 
 Projects
 

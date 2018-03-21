@@ -12,7 +12,7 @@ Course in computer science.
 Projects
 
 * Write X in Haskell, Rust, Go, js? and Scala.
-* 
+* Automata theory/computational hierarchy
 
 #### Architecture
 
@@ -23,10 +23,8 @@ Projects
 
 #### Searching and sorting
 
-
 * Tree search
 * Data structures (or have a seperate course?)
-
 
 ## Semester 2
 
@@ -35,12 +33,13 @@ Projects
 * duality of operator and operand
 * Recursion schemes
 * https://github.com/slamdata/matryoshka
+* Topological recursion??
 
 Projects
 
 * Recursive learning
 
-#### Scheduling
+#### Scheduling and Assembly?
 
 * ?
 
@@ -53,19 +52,19 @@ Projects
 ## Semester 3
 
 
-#### Assembly?
+#### Fast numerical algols
 
+* [Deep Tensor Convolution on Multicores]()
+* ?
 
-
-#### Energy management
+#### Energy complexity
 
 
 #### Computational complexity
 
 
 <!-- 
-- Fast numerical computations
-- Memory formats
+- Memory formats. RAM, ...
 - Predictive caching
 - ?
 -->

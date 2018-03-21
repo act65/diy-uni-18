@@ -1,36 +1,34 @@
 Course in pure and applied math.
 
-## Semester 1
+# Semester 1
 
-#### Abstract Algebra
+### Abstract Algebra
 
+* Review of groups, fields, rings, ...
 * Symmetry
 * Moonshine
 * Various algebras (duals, Clifford algebras, ...? Symplectic?)
-* Review of groups, fields, rings, ...
 
-#### Signal processing and sparsity
+### Signal processing and sparsity
 
 * Fourier, wavelets, graphlets, ... spectra
 * Sparsity
-*
-
-#### Duality
-
-* Legendre transform
-* Definition of duality
 * 
 
-## Semester 2
+### Representation theory
 
-#### Graph theory
+* ?
+
+# Semester 2
+
+### Graph theory
 
 * Various types; Hyper, hierarchical, ...?
 * Matriods
 * Graphons
 * ?
 
-#### Dynamical systems and stability
+### Dynamical systems and stability
 
 * Focus on stability!
 * Bifurications
@@ -39,25 +37,26 @@ Course in pure and applied math.
 * Signularity theory?
 * Chaos
 
-#### Optimisation
+### Optimisation
 
 * The (higher?) math of optimisation
 
-## Semester 3
+# Semester 3
 
 
-#### Category theory
+### Category theory
 
 * HOTT
-* ?
+* Limits, morphisms, ...
+* Categorical complexity
 
-#### Information theory
+### Information theory
 
 * AIT
 * Kolmogorov complexity
 * ?
 
-#### Algebraic/topological statistics
+### Algebraic/topological statistics
 
 * ?
 
@@ -68,8 +67,8 @@ Course in pure and applied math.
 - topology?
 - calculus - discrete, functional, fractional, ...
 - complex number, holomorphic functions, 
-- representation theory
-- ?
+- 
+- combinatorics!
 
 - non-linear type systems
 - ?
