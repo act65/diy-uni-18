@@ -1,4 +1,4 @@
-Course in cognitive science, with a focus on computational neuroscience, reasoning and linguistics.
+Course in cognitive science, with a focus on computational approaches to neuroscience, reward, reasoning and language.
 
 ## Semester 1
 
@@ -8,20 +8,18 @@ Course in cognitive science, with a focus on computational neuroscience, reasoni
 * Evolution of languages
 * Grammaticalization, Creoleization, ?
 
-#### Computational neuroscience: Reward systems and learning
+#### Computational neuroscience: Reward systems 
 
+* Addiction
 * Successor representation and spatial memory
 * ?
 * ?
 
+#### Epigenetics of memory and learning
 
-#### ?
+* ...
 
 ## Semester 2
-
-
-#### Computational neuroscience: ?
-
 
 #### Natural language processing
 
@@ -36,28 +34,29 @@ Projects
 
 * ?
 
+#### Computational neuroscience: Memory
 
-#### Developmental neuroscience
+* Working memory
 
-* Growing a brain
-* 
+#### ?
 
 
 ## Semester 3
 
+#### Computational neuroscience: Language and reasoning
+
+* Biologically plausible models of language acquisition.
 
 #### Evolution of the brain
 
 * The environmental pressures that acted as selective pressures on the developing brain.
 
-#### Epigenetics of memory and learning
+#### Developmental neuroscience
 
-* ...
+* Growing a brain
+* Experiments with cerebral organiods? Preferable a way to automate this!?
 
-## Project
-
-Biologically plausible models of language acquisition.
-
-<!-- 
-Experiments with cerebral organiods. Preferable a way to automate this!?
+<!--
+- imaging
+- 
 -->
