@@ -10,6 +10,7 @@ A course on complex adaptive systems.
 
 #### Reinforcement learning
 
+* Temporal difference learning (!!)
 
 ## Semester 2
 
