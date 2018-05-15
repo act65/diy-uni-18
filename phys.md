@@ -2,19 +2,18 @@ Course in physics (with a view towards computation).
 
 ## Semester 1
 
-#### Entropy
+#### Electro-dynamics
 
-* Entropy of all the different types of energy. Thermodynamical, magnetic, electric, gravitational, ...
-* Framed as the distribution of energy
-* Relationship to info theory?
+* ?
 
-#### Condensed matter, phases, complexity
+#### Particle physics
 
-* Superconductivity
+* Strong and weak forces
+* ?
 
-#### Electrodynamics
+#### Relativity
 
-
+* ?
 
 ## Semester 2
 
@@ -25,14 +24,18 @@ Course in physics (with a view towards computation).
 * Variational principles/nother's theorem
 * ?
 
-#### Particle physics
+#### Condensed matter
 
-* Strong and weak forces
+* Superconductivity
+* Phases of matter
+* Crystals?
 * ?
 
+#### Entropy
 
-#### Relativity?
-
+* Entropy of all the different types of energy. Thermodynamical, magnetic, electric, gravitational, ...
+* Framed as the distribution of energy
+* Relationship to info theory?
 
 ## Semester 3
 
@@ -46,7 +49,7 @@ Course in physics (with a view towards computation).
 
 * Bohmian mechanics
 * Algols?
-* 
+*
 
 #### Symmetry
 

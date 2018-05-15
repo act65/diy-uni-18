@@ -13,9 +13,9 @@ Course in pure and applied math.
 
 * Fourier, wavelets, graphlets, ... spectra
 * Sparsity
-* 
+*
 
-### Representation theory
+### Representations and theory
 
 * ?
 
@@ -54,7 +54,7 @@ Course in pure and applied math.
 
 * AIT
 * Kolmogorov complexity
-* ?
+* Entropy
 
 ### Algebraic/topological statistics
 
@@ -66,8 +66,8 @@ Course in pure and applied math.
 - functional analysis
 - topology?
 - calculus - discrete, functional, fractional, ...
-- complex number, holomorphic functions, 
-- 
+- complex number, holomorphic functions,
+-
 - combinatorics!
 
 - non-linear type systems

@@ -2,7 +2,7 @@ Course in data science, machine learning and related math.
 
 # Semester 1
 
-### Gradient estimation
+### Deep learning and gradient estimation
 
 <!-- > _How can you estimate how a function will change?_ -->
 
@@ -21,9 +21,9 @@ Readings
 * [True online TD](https://arxiv.org/abs/1512.04087)
 * ?
 
-<!-- 
-* synthetic grads??? 
-* kronecker factored... 
+<!--
+* synthetic grads???
+* kronecker factored...
 * ?
 -->
 
@@ -34,13 +34,13 @@ Projects
 * Gradient estimation with;
     * _local queries_. If the model is very large, would it be easier/efficient to do local pertubations to estimate the gradients?
     * _structured information_.  If I have some information about the structure of a function (aka black box) we are taking the derivatve of (ie, not a black box...) how can this help me estimate gradients? <!-- If I gave you the jacobian of a CNN could you tell me whether it is invariant to translations/rotations? -->
+* Aggregation for noisy estimates?
 <!-- What about estimation of the hessian or higher orders? -->
 <!-- * Approximate gradients: synthetic gradients, ?  * Add AD for non-differentiable ops to tensorflow?!
-http://blog.otoro.net/2017/10/29/visual-evolution-strategies/ 
+http://blog.otoro.net/2017/10/29/visual-evolution-strategies/
 -->
-* Aggregation for noisy estimates?
 
-### Tensors
+### Efficient tensor computation
 
 Questions
 
@@ -96,7 +96,7 @@ Projects
 
 ## Semester 2
 
-#### Credit assignment
+#### Backpropagation and credit assignment
 
 Questions
 
@@ -110,8 +110,8 @@ Questions
 Readings
 
 * Backprop: [Backprop as Functor](https://arxiv.org/abs/1711.10455) and [?]()
-* Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?, shattered grads?, 
-* Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](), 
+* Is hard: [long-term dependencies](http://www.iro.umontreal.ca/~lisa/pointeurs/ieeetrnn94.pdf), memory usage?, shattered grads?,
+* Biologically plausible credit assignment: [Equilibrium Propagation](), [Backprop in deep cortical microcircuits](),
 * [Mixed convex-combinatorial optimisation](https://arxiv.org/abs/1710.11573), [target propagation](), [ADMM]()
 
 Projects
@@ -146,7 +146,7 @@ Projects
 
 * Neural networks as a tensor decomposition?
 * Representation to match structure in the problem.
-* Distributed representations, 
+* Distributed representations,
 <!-- * Capacity and simplicity. Measuring complexity of a given hypothesis -->
 
 Readings
@@ -163,7 +163,7 @@ Projects
 * Splines
 * Second order and Factorisation machines
 * Holographic reduced representations?
-* Iteratively construct a net. What does adding more flexibility do when at a local minima? 
+* Iteratively construct a net. What does adding more flexibility do when at a local minima?
 
 ## Semester 3
 
@@ -198,7 +198,7 @@ Projects
 * Local gradient statistics (must be distributed/collected over time or space -- the batch) <!-- Why is the necessary? Pathological surfaces that make point estimates useless. Want cheap, no-bias, estimates of the gradients -->
 * Why don't higher order optimisation algols work with NNs? Kronecker-factored approximation, hessian free, block hessian, ...?
 * Model based optimisation rather than black box optimisation!?!
-<!-- * A derivative of a function as a linear model? Of that function. So when we do black box optimisation we do it by modeling the function--> 
+<!-- * A derivative of a function as a linear model? Of that function. So when we do black box optimisation we do it by modeling the function-->
 * Regularisation via early stopping
 <!-- What if you tried to model the entire surface you are descending?! Model based optimisation!? Although we might be optimisating a black box, that doesnt stop us from using a model of it?! -->
 <!-- * Reproduce [The marginal value of adaptive gradients](https://arxiv.org/abs/1705.08292) and explore -->
@@ -222,7 +222,7 @@ Projects
 * Learn a PGM
 * ?
 
-#### Compression 
+#### Compression
 
 <!-- (and beauty) -->
 <!-- What about learning PGMs -->
@@ -232,11 +232,11 @@ Questions
 * Is compression the same thing as quantisation and formalisation? If not, how is it different?
 * Relationship between sketching, quantising, distilling, ...
 * How do compression and prediction relate?
-* 
+*
 
 Readings
 
-* [A theory of fun, beauty, ...](Schmidhuber 2009), 
+* [A theory of fun, beauty, ...](Schmidhuber 2009),
 * Hand designed compression of ?! (images/audio/text?)
 <!-- * Automata theory? -->
 * AIT?
@@ -245,11 +245,11 @@ Readings
 Projects
 
 * Automata theory and RNNs
-  * Extract/distill an automata from a (recurrent) neural network. 
+  * Extract/distill an automata from a (recurrent) neural network.
   * Can a RNN learn a push down or turing machine ??
 * Quantisation, distillation, ...? [TernGrad]()
 * Adaptive/online compression/coding (predictive coding?)
-* A flexible/variable 
+* A flexible/variable
 * Gradient w.r.t compression!?
 
 
@@ -258,6 +258,6 @@ Projects
 - online algols -- tree based frequency sketch. Efficient memory in online setting.  not optimisation, but interesting!?
 - another on optimisation...
 - transfer, active, meta, .. learning
-- Topological data analysis, clustering, connectedness, 
+- Topological data analysis, clustering, connectedness,
 - signal processing?
 -->

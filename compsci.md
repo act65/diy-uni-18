@@ -11,7 +11,7 @@ Course in computer science.
 
 Projects
 
-* Write X in Haskell, Rust, Go, js? and Scala.
+* Write ??? in Haskell, Rust, Go, js? and Scala.
 * Automata theory/computational hierarchy
 
 #### Architecture
@@ -44,7 +44,6 @@ Projects
 * ?
 
 
-
 #### Parallelism
 
 ?
@@ -63,8 +62,8 @@ Projects
 #### Computational complexity
 
 
-<!-- 
+<!--
 - Memory formats. RAM, ...
 - Predictive caching
-- ?
+- Different types of processor. FPGA, GPU, TPU, ...?
 -->

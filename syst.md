@@ -4,19 +4,21 @@ A course on complex adaptive systems.
 
 #### Distributed optimisation
 
+* ?
 
 #### Evolution
 
+* ?
 
 #### Reinforcement learning
 
-* Temporal difference learning (!!)
+* ?
 
 ## Semester 2
 
 #### Multi-agent settings
 
-* Collaboration and competition
+* Learning to communicate!?
 
 #### Exploration
 
@@ -30,7 +32,11 @@ A course on complex adaptive systems.
 
 ## Semester 3
 
-#### Optimisation (another one...)
+#### Temporal difference learning
+
+#### Collaboration and specialisation
+
+#### ?
 
 <!--
 - cryptography
