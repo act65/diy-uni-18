@@ -58,6 +58,7 @@ Readings
 * ?
 <!-- * Optimisation of tensornets. -->
 <!--  [from group orbits](https://arxiv.org/abs/1612.01527), -->
+<!-- Tensor calculus - Sochi -->
 
 Projects
 
@@ -124,6 +125,13 @@ Projects
 
 #### Structured learning
 
+<!-- 
+- Databases, 
+- structured inputs and outputs (grammar/syntax), aka graphs! 
+- reasoning
+- ?
+-->
+
 Questions
 
 * How can graphs be encoded? list the different ways? does structure imply a graph?
@@ -134,6 +142,7 @@ Readings
 * Knlowedge bases (link prediction and factorisation -- find common patterns of connectivity and abstract!? What about disambiguation? When things are linked wit similar edges, but they really arent the same thing!?)
 * [Knowledge Graph Completion via Complex Tensor Factorization](https://arxiv.org/abs/1702.06879)
 * [CayleyNets: Graph Convolutional Neural Networks with Complex Rational Spectral Filters]()
+* https://lagunita.stanford.edu/courses/DB/RD/SelfPaced/info
 
 Projects
 

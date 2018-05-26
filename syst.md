@@ -1,9 +1,13 @@
-A course on complex adaptive systems.
+A course on complex adaptive systems (and some other things that didnt fit).
 
 ## Semester 1
 
-#### Distributed optimisation
+#### Distributed 
 
+* Optimisation
+* Memory (? and ? trade-off)
+* Processing
+* Communication complexity
 
 #### Evolution
 
@@ -16,18 +20,15 @@ A course on complex adaptive systems.
 #### Multi-agent settings
 
 * Collaboration and competition
+* Signalling
+* Game theory
+* ?
 
 #### Exploration
 
 * Curiosity
 * Creativity
 * ?
-
-#### Signalling
-
-* Collaboration!?
-
-## Semester 3
 
 #### Optimisation (another one...)
 
