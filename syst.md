@@ -2,7 +2,7 @@ A course on complex adaptive systems (and some other things that didnt fit).
 
 ## Semester 1
 
-#### Distributed 
+#### Distributed
 
 * Optimisation
 * Memory (? and ? trade-off)
@@ -11,9 +11,11 @@ A course on complex adaptive systems (and some other things that didnt fit).
 
 #### Evolution
 
+* ?
 
 #### Reinforcement learning
 
+* ?
 
 ## Semester 2
 
